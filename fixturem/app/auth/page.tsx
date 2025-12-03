@@ -2,15 +2,29 @@
 
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function LoginPage() {
   const router = useRouter();
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault(); // ⛔ evita que recargue la página
+  // Estados para capturar el input
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-    // Por ahora no validamos nada.
-    // Solo redirigimos al home.
+  // Credenciales mock para los tests
+  const VALID_EMAIL = "testuser@example.com";
+  const VALID_PASSWORD = "Password123!";
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    // Validación mock para testear errores
+    if (email !== VALID_EMAIL || password !== VALID_PASSWORD) {
+      alert("Credenciales incorrectas");
+      return;
+    }
+
+    // Si todo está ok → entrar
     router.push("/");
   };
 
@@ -25,12 +39,17 @@ export default function LoginPage() {
             placeholder="Email"
             data-testid="login-email"
             className="border p-2 rounded"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
+
           <input
             type="password"
             placeholder="Contraseña"
             data-testid="login-password"
             className="border p-2 rounded"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
           />
 
           <button

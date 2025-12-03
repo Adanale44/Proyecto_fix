@@ -2,15 +2,38 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
+
+// Mock usuarios para pruebas
+const USERS = ["testuser@example.com"];
 
 export default function RegisterPage() {
   const router = useRouter();
 
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+
   const handleRegister = (event: React.FormEvent) => {
     event.preventDefault();
 
-    // aquí podrías validar o enviar a la API, pero por ahora:
-    router.push("/auth"); // REDIRECCIÓN AL LOGIN
+    // Validaciones básicas
+    if (!email || !password || !confirmPassword) {
+      alert("Completá todos los campos");
+      return;
+    }
+    if (password !== confirmPassword) {
+      alert("Las contraseñas no coinciden");
+      return;
+    }
+    if (USERS.includes(email)) {
+      alert("El email ya está registrado");
+      return;
+    }
+
+    // Simular creación
+    alert("Cuenta creada correctamente");
+    router.push("/auth");
   };
 
   return (
@@ -24,6 +47,8 @@ export default function RegisterPage() {
             placeholder="Email"
             data-testid="email"
             className="border p-2 rounded"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
 
           <input
@@ -31,6 +56,8 @@ export default function RegisterPage() {
             placeholder="Contraseña"
             data-testid="password"
             className="border p-2 rounded"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
           />
 
           <input
@@ -38,10 +65,13 @@ export default function RegisterPage() {
             placeholder="Confirmar Contraseña"
             data-testid="password-confirm"
             className="border p-2 rounded"
+            value={confirmPassword}
+            onChange={(e) => setConfirmPassword(e.target.value)}
           />
 
           <button
             type="submit"
+            data-testid="register-submit"
             className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700"
           >
             Registrarse
