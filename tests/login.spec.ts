@@ -6,9 +6,7 @@ test.describe("historia", () => {
     await page.goto("http://localhost:3000/");
     await page.getByRole("link", { name: "Empezar" }).click();
     await page.getByRole("textbox", { name: "Correo Electrónico" }).click();
-    await page
-      .getByRole("textbox", { name: "Correo Electrónico" })
-      .fill("a@gmail.com");
+    await page.getByRole("textbox", { name: "Correo Electrónico" }).fill("a@gmail.com");
     await page.getByRole("button", { name: "Iniciar Sesión" }).click();
     await expect(page.getByText("Falta contraseña")).toBeDefined();
   });
