@@ -1,7 +1,7 @@
 "use client"
-
+import FormularioParaIniciarSesion from "../components/FormularioParaIniciarSesion"
 import { useState } from "react"
-import Link from "link"
+import Link from "next/link"
 import { Trophy, Mail, Lock, Eye, EyeOff } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -10,8 +10,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export default function AuthPage() {
-  const [showPassword, setShowPassword] = useState(false)
   const [showConfirmPassword, setShowConfirmPassword] = useState(false)
+  const [showPassword, setShowPassword] = useState(false)
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 flex items-center justify-center p-4">
@@ -37,39 +38,7 @@ export default function AuthPage() {
               </TabsList>
 
               <TabsContent value="login" className="space-y-4">
-                <div className="space-y-2">
-                  <Label htmlFor="login-email">Correo Electrónico</Label>
-                  <div className="relative">
-                    <Mail className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
-                    <Input id="login-email" type="email" placeholder="tu-correo@etecuba.edu.ar" className="pl-10" />
-                  </div>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="login-password">Contraseña</Label>
-                  <div className="relative">
-                    <Lock className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
-                    <Input
-                      id="login-password"
-                      type={showPassword ? "text" : "password"}
-                      placeholder="••••••••"
-                      className="pl-10 pr-10"
-                    />
-                    <button
-                      type="button"
-                      onClick={() => setShowPassword(!showPassword)}
-                      className="absolute right-3 top-3 text-gray-400 hover:text-gray-600"
-                    >
-                      {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
-                    </button>
-                  </div>
-                </div>
-
-                <Button className="w-full" size="lg">
-                  Iniciar Sesión
-                </Button>
-
-                <p className="text-sm text-center text-gray-500">Se enviará un email de confirmación a tu correo</p>
+               <FormularioParaIniciarSesion/>
               </TabsContent>
 
               <TabsContent value="register" className="space-y-4">
