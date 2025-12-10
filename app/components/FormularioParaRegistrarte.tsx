@@ -4,6 +4,7 @@ import { Label } from "@/components/ui/label";
 import { Mail, Lock, EyeOff, Eye } from "lucide-react";
 import { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
+import pb from "../../lib/pb";
 
 type DatosRequeridosParaElFormulario = {
   contrasena: string;
@@ -13,7 +14,10 @@ type DatosRequeridosParaElFormulario = {
 
 const FormularioParaRegistrarte = () => {
   const [contrasenaVisible, cambiarVisibilidadDeLaContrasena] = useState(false);
-  const [confirmarContrasenaVisible, cambiarVisibilidadDeComfirmacionDEContrasena] = useState(false);
+  const [
+    confirmarContrasenaVisible,
+    cambiarVisibilidadDeComfirmacionDEContrasena,
+  ] = useState(false);
 
   const {
     register,
@@ -22,8 +26,31 @@ const FormularioParaRegistrarte = () => {
     formState: { errors },
   } = useForm<DatosRequeridosParaElFormulario>();
 
-  const onSubmit: SubmitHandler<DatosRequeridosParaElFormulario> = (data) =>
-    console.log(data);
+  const onSubmit: SubmitHandler<DatosRequeridosParaElFormulario> = async (
+    data
+  ) => {
+    if (data.contrasena.length < 8) {
+      alert("La contraseña debe tener al menos 8 caracteres.");
+      return;
+    }
+    if (data.contrasena !== data.confirmarContrasena) {
+      alert("Las contraseñas no coinciden.");
+      return;
+    }
+
+    try {
+      const record = await pb.collection("users").create({
+        email: data.email,
+        password: data.contrasena,
+        passwordConfirm: data.confirmarContrasena,
+      });
+      console.log("Usuario creado:", record);
+      alert("Cuenta creada correctamente. Revisa tu email.");
+    } catch (err: any) {
+      console.error(err);
+      alert("Error al crear la cuenta: " + err.message);
+    }
+  };
 
   console.log(watch("email"));
   return (
@@ -31,7 +58,7 @@ const FormularioParaRegistrarte = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="space-y-2">
           <Label htmlFor="register-email">Correo Electrónico</Label>
-            {errors.email && <span>Falta email</span>}
+          {errors.email && <span>Falta email</span>}
           <div className="relative">
             <Mail className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
             <Input
@@ -46,7 +73,7 @@ const FormularioParaRegistrarte = () => {
 
         <div className="space-y-2">
           <Label htmlFor="register-password">Contrasena</Label>
-            {errors.contrasena && <span>Falta contraseña</span>}
+          {errors.contrasena && <span>Falta contraseña</span>}
           <div className="relative">
             <Lock className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
             <Input
@@ -58,7 +85,9 @@ const FormularioParaRegistrarte = () => {
             />
             <button
               type="button"
-              onClick={() => cambiarVisibilidadDeLaContrasena(!contrasenaVisible)}
+              onClick={() =>
+                cambiarVisibilidadDeLaContrasena(!contrasenaVisible)
+              }
               className="absolute right-3 top-3 text-gray-400 hover:text-gray-600"
             >
               {contrasenaVisible ? (
@@ -72,7 +101,9 @@ const FormularioParaRegistrarte = () => {
 
         <div className="space-y-2">
           <Label htmlFor="confirm-password">Verificar Contraseña</Label>
-            {errors.confirmarContrasena && <span>Falta confirmar la contraseña</span>}
+          {errors.confirmarContrasena && (
+            <span>Falta confirmar la contraseña</span>
+          )}
           <div className="relative">
             <Lock className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
             <Input
@@ -84,7 +115,11 @@ const FormularioParaRegistrarte = () => {
             />
             <button
               type="button"
-              onClick={() => cambiarVisibilidadDeComfirmacionDEContrasena(!confirmarContrasenaVisible)}
+              onClick={() =>
+                cambiarVisibilidadDeComfirmacionDEContrasena(
+                  !confirmarContrasenaVisible
+                )
+              }
               className="absolute right-3 top-3 text-gray-400 hover:text-gray-600"
             >
               {confirmarContrasenaVisible ? (

@@ -4,6 +4,8 @@ import { Label } from "@/components/ui/label";
 import { Mail, Lock, EyeOff, Eye } from "lucide-react";
 import { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { useRouter } from "next/navigation";
+import pb from "@/lib/pb";
 
 type DatosRequeridosParaElFormulario = {
   contrasena: string;
@@ -20,8 +22,40 @@ const FormularioParaIniciarSesion = () => {
     formState: { errors },
   } = useForm<DatosRequeridosParaElFormulario>();
 
-  const onSubmit: SubmitHandler<DatosRequeridosParaElFormulario> = (data) =>
-    console.log(data);
+  const router = useRouter(); // Creamos una instancia del router
+
+  const onSubmit: SubmitHandler<DatosRequeridosParaElFormulario> = async (
+    data
+  ) => {
+    try {
+      const res = await fetch("/api/login", {
+        method: "POST",
+        body: JSON.stringify({
+          email: data.email,
+          contrasena: data.contrasena,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      const json = await res.json();
+      if (!json.ok) {
+        alert("Error: " + json.error);
+        return;
+      }
+
+      // Al iniciar sesión correctamente, redirigimos al inicio
+      pb.authStore.save(json.authData.token, json.user);
+      alert("Inicio de sesión exitoso");
+
+
+      router.push("/"); // Redirige al home
+    } catch (error) {
+      console.error(error);
+      alert("Error inesperado al iniciar sesión");
+    }
+  };
 
   console.log(watch("email"));
   return (
@@ -29,7 +63,7 @@ const FormularioParaIniciarSesion = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="space-y-2">
           <Label htmlFor="login-email">Correo Electrónico</Label>
-            {errors.email && <span>Falta email</span>}
+          {errors.email && <span>Falta email</span>}
           <div className="relative">
             <Mail className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
             <Input
@@ -44,7 +78,7 @@ const FormularioParaIniciarSesion = () => {
 
         <div className="space-y-2">
           <Label htmlFor="login-password">Contraseña</Label>
-            {errors.contrasena && <span>Falta contraseña</span>}
+          {errors.contrasena && <span>Falta contraseña</span>}
           <div className="relative">
             <Lock className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
             <Input
