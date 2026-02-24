@@ -62,7 +62,7 @@ const FormularioParaIniciarSesion = () => {
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="space-y-2">
-          <Label htmlFor="login-email">Correo Electrónico</Label>
+          <Label htmlFor="login-email" >Correo Electrónico</Label>
           {errors.email && <span>Falta email</span>}
           <div className="relative">
             <Mail className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
