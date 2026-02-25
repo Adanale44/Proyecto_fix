@@ -932,3 +932,4 @@ You're importing a component that needs `useState`. This React Hook only works i
 [07:29:16.387] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
 [07:29:16.387] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772048635037} /_vercel/insights/view
 [07:30:05.164] Server  ERROR   ERROR CREAR TORNEO: ClientResponseError 0: Something went wrong.
+[07:57:34.085] Server  ERROR   ERROR CREAR TORNEO: ClientResponseError 0: Something went wrong.
