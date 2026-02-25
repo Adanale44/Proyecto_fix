@@ -51,7 +51,7 @@ export default function AuthPage() {
               </TabsList>
 
               <TabsContent value="login" className="space-y-4">
-                <FormularioParaIniciarSesion />
+                <FormularioParaIniciarSesion/>
               </TabsContent>
 
               <TabsContent value="register" className="space-y-4">
