@@ -43,6 +43,11 @@ const ProfilePage = ()=>{
     _s();
     const [user, setUser] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
+    const handleLogout = ()=>{
+        __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$pb$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].authStore.clear(); // Borra sesión
+        setUser(null); // Limpia estado local
+        router.push("/"); // Redirige al home
+    };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ProfilePage.useEffect": ()=>{
             const loggedUser = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$pb$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].authStore.model;
@@ -66,7 +71,7 @@ const ProfilePage = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.tsx",
-                    lineNumber: 24,
+                    lineNumber: 29,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -76,7 +81,7 @@ const ProfilePage = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.tsx",
-                    lineNumber: 25,
+                    lineNumber: 30,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -86,24 +91,41 @@ const ProfilePage = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.tsx",
-                    lineNumber: 26,
+                    lineNumber: 31,
+                    columnNumber: 11
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    onClick: handleLogout,
+                    style: {
+                        marginTop: "20px",
+                        padding: "8px 16px",
+                        backgroundColor: "red",
+                        color: "white",
+                        border: "none",
+                        borderRadius: "4px",
+                        cursor: "pointer"
+                    },
+                    children: "Cerrar Sesión"
+                }, void 0, false, {
+                    fileName: "[project]/app/profile/page.tsx",
+                    lineNumber: 33,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/app/profile/page.tsx",
-            lineNumber: 23,
+            lineNumber: 28,
             columnNumber: 9
         }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             children: "Cargando..."
         }, void 0, false, {
             fileName: "[project]/app/profile/page.tsx",
-            lineNumber: 30,
+            lineNumber: 49,
             columnNumber: 9
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/app/profile/page.tsx",
-        lineNumber: 21,
+        lineNumber: 26,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

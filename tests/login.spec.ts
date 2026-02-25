@@ -1,10 +1,12 @@
 import { test, expect } from "@playwright/test";
 
-test.describe("historia", () => {
+test.use({
+  storageState: { cookies: [], origins: [] },
+});
 
-  test("Dado que deseamos iniciar sesion, coloco usuario y no contraseña, entonces el sistema emite un mensaje del estilo 'Falta la contraseña'", async ({
-    page,
-  }) => {
+test.describe("Historia - Login", () => {
+
+  test("Dado que deseamos iniciar sesion, coloco usuario y no contraseña, entonces el sistema emite un mensaje del estilo 'Falta la contraseña'", async ({ page }) => {
 
     await page.goto("http://localhost:3000/");
     await page.getByRole("link", { name: "Empezar" }).click();
@@ -23,23 +25,25 @@ test.describe("historia", () => {
 
   });
 
-  test("Dado que deseamos iniciar sesion, coloco usuario y contraseña, entonces el sistema emite un mensaje del estilo 'Se inicio correctamente'", async ({
-    page,
-  }) => {
+
+  test("Dado que deseamos iniciar sesion, coloco usuario y contraseña, entonces el sistema emite un mensaje del estilo 'Se inicio correctamente'", async ({ page }) => {
 
     await page.goto("http://localhost:3000/");
-
-    await page.getByPlaceholder("tu-correo@etecuba.edu.ar").fill("a@example.com");
+    await page.getByRole("link", { name: "Empezar" }).click();
 
     await page
-      .getByRole("textbox", { name: "Contraseña" })
-      .fill("Password123!");
+      .getByLabel("Correo Electrónico")
+      .fill("a@gmail.com");
+
+    await page
+      .getByLabel("Contraseña")
+      .fill("12345678");
 
     await page
       .getByRole("button", { name: "Iniciar Sesión" })
       .click();
 
-    await page.goto("http://localhost:3000/");
+    await expect(page).toHaveURL("http://localhost:3000/");
 
     await expect(
       page.getByText(/Bienvenido|Inicio/i)

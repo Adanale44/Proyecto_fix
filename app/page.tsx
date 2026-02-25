@@ -54,7 +54,7 @@ export default function HomePage() {
         </div>
         <div className="flex justify-center mt-10">
           <Button asChild>
-            <Link href="/tournaments/create">
+            <Link href="../CreateTournamentForm">
               <Trophy className="mr-2 h-5 w-5" />
               Crear Torneo
             </Link>
