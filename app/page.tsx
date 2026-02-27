@@ -11,14 +11,31 @@ import pb from "@/lib/pb";
 export default function HomePage() {
   const [user, setUser] = useState<any>(null);
   const router = useRouter();
+  const [tournaments, setTournaments] = useState<any[]>([]);
 
   useEffect(() => {
-    // Verificamos si el usuario está logueado
     const loggedUser = pb.authStore.model;
-    console.log("user: " + loggedUser);
+
     if (loggedUser) {
-      setUser(loggedUser); // Si está logueado, guardamos el usuario
+      setUser(loggedUser);
     }
+
+    const fetchTournaments = async () => {
+      try {
+        const result = await pb.collection("tournaments").getList(1, 20, {
+          filter: "published = true",
+          sort: "-created",
+          expand: "creator",
+        });
+
+        setTournaments(result.items);
+      } catch (error: any) {
+        if (error?.isAbort) return;
+        console.error("Error cargando torneos:", error);
+      }
+    };
+
+    fetchTournaments();
   }, []);
 
   const handleProfileClick = () => {
@@ -267,6 +284,31 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+      </section>
+      <section className="container mx-auto px-4 py-16">
+        <h3 className="text-3xl font-bold mb-8 text-center">Torneos Activos</h3>
+
+        {tournaments.length === 0 ? (
+          <p className="text-center text-gray-500">
+            No hay torneos publicados todavía.
+          </p>
+        ) : (
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {tournaments.map((tournament) => (
+              <Card key={tournament.id}>
+                <CardContent className="pt-6">
+                  <h4 className="text-xl font-bold mb-2">{tournament.name}</h4>
+                  <p className="text-gray-600 mb-2">
+                    Estado: {tournament.status}
+                  </p>
+                  <p className="text-sm text-gray-500">
+                    Creado por: {tournament.expand?.creator?.email}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        )}
       </section>
 
       {/* About Section */}

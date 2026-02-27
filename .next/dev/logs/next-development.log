@@ -1,935 +1,1629 @@
-[00:00:13.074] Server  LOG      ✓ Ready in 9s
-[00:02:02.578] Server  LOG      ○ Compiling / ...
-[00:02:39.093] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:39.147] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:39.560] Browser LOG     user: null
-[00:02:39.881] Browser LOG     user: null
-[00:02:40.307] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:40.307] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:40.307] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772021838995} /_vercel/insights/view
-[00:02:40.323] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:40.323] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:40.324] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772021839010} /_vercel/insights/view
-[00:02:43.382] Browser LOG     undefined
-[00:02:43.382] Browser LOG     undefined
-[00:02:43.382] Browser LOG     
-[00:02:43.382] Browser LOG     
-[00:02:43.382] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772021841928} /_vercel/insights/view
-[00:02:43.382] Browser LOG     a@gmail.com
-[00:02:43.382] Browser LOG     a@gmail.com
-[00:02:43.533] Browser LOG     a@gmail.com
-[00:02:43.533] Browser LOG     a@gmail.com
-[00:09:55.096] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:55.537] Browser LOG     user: null
-[00:09:55.816] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:09:55.816] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:09:55.816] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022274504} /_vercel/insights/view
-[00:11:09.364] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:09.782] Browser LOG     user: null
-[00:11:10.150] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:11:10.150] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:11:10.150] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022348840} /_vercel/insights/view
-[00:11:11.163] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:11.623] Browser LOG     user: null
-[00:11:11.912] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:11:11.912] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:11:11.912] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022350589} /_vercel/insights/view
-[00:11:12.189] Browser LOG     undefined
-[00:11:12.189] Browser LOG     undefined
-[00:11:12.189] Browser LOG     
-[00:11:12.189] Browser LOG     
-[00:11:12.189] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022350836} /_vercel/insights/view
-[00:11:12.309] Browser LOG     a@gmail.com
-[00:11:12.309] Browser LOG     a@gmail.com
-[00:11:12.562] Browser LOG     a@gmail.com
-[00:11:12.562] Browser LOG     a@gmail.com
-[00:13:47.279] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:47.660] Browser LOG     user: null
-[00:13:47.918] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:13:47.918] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:13:47.918] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022506604} /_vercel/insights/view
-[00:13:48.273] Browser LOG     undefined
-[00:13:48.273] Browser LOG     undefined
-[00:13:48.273] Browser LOG     
-[00:13:48.273] Browser LOG     
-[00:13:48.273] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022506920} /_vercel/insights/view
-[00:13:48.436] Browser LOG     a@gmail.com
-[00:13:48.436] Browser LOG     a@gmail.com
-[00:13:48.655] Browser LOG     a@gmail.com
-[00:13:48.655] Browser LOG     a@gmail.com
-[00:13:48.916] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:49.350] Browser LOG     user: null
-[00:13:49.582] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:13:49.582] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:13:49.582] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022508272} /_vercel/insights/view
-[00:18:04.193] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:04.711] Browser LOG     user: null
-[00:18:05.390] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:05.390] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:18:05.390] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022763770} /_vercel/insights/view
-[00:18:05.390] Browser LOG     undefined
-[00:18:05.390] Browser LOG     undefined
-[00:18:05.390] Browser LOG     
-[00:18:05.390] Browser LOG     
-[00:18:05.390] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022763910} /_vercel/insights/view
-[00:18:05.390] Browser LOG     a@example.com
-[00:18:05.390] Browser LOG     a@example.com
-[00:18:05.877] Browser LOG     a@example.com
-[00:18:05.877] Browser LOG     a@example.com
-[00:18:09.274] Browser LOG     a@example.com
-[00:18:09.274] Browser LOG     a@example.com
-[00:18:09.629] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:09.945] Browser LOG     user: null
-[00:18:10.260] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:10.261] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:18:10.261] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022768939} /_vercel/insights/view
-[00:18:10.514] Browser LOG     undefined
-[00:18:10.514] Browser LOG     undefined
-[00:18:10.514] Browser LOG     
-[00:18:10.514] Browser LOG     
-[00:18:10.514] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022769168} /_vercel/insights/view
-[00:18:10.636] Browser LOG     a@gmail.com
-[00:18:10.636] Browser LOG     a@gmail.com
-[00:18:10.841] Browser LOG     a@gmail.com
-[00:18:10.841] Browser LOG     a@gmail.com
-[00:19:01.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:01.975] Browser LOG     user: null
-[00:19:02.484] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:19:02.485] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:19:02.485] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022820958} /_vercel/insights/view
-[00:19:02.485] Browser LOG     undefined
-[00:19:02.485] Browser LOG     undefined
-[00:19:02.485] Browser LOG     
-[00:19:02.485] Browser LOG     
-[00:19:02.485] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022821038} /_vercel/insights/view
-[00:19:02.485] Browser LOG     a@example.com
-[00:19:02.485] Browser LOG     a@example.com
-[00:19:02.700] Browser LOG     a@example.com
-[00:19:02.700] Browser LOG     a@example.com
-[00:19:03.015] Browser LOG     a@example.com
-[00:19:03.015] Browser LOG     a@example.com
-[00:19:03.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:03.394] Browser LOG     user: null
-[00:19:03.644] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:19:03.644] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:19:03.644] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022822324} /_vercel/insights/view
-[00:19:03.963] Browser LOG     undefined
-[00:19:03.963] Browser LOG     undefined
-[00:19:03.963] Browser LOG     
-[00:19:03.963] Browser LOG     
-[00:19:03.963] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022822523} /_vercel/insights/view
-[00:19:03.964] Browser LOG     a@gmail.com
-[00:19:03.964] Browser LOG     a@gmail.com
-[00:20:42.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:42.383] Browser LOG     user: null
-[00:20:42.945] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:20:42.945] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:20:42.945] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022921480} /_vercel/insights/view
-[00:20:42.945] Browser LOG     undefined
-[00:20:42.945] Browser LOG     undefined
-[00:20:42.945] Browser LOG     
-[00:20:42.945] Browser LOG     
-[00:20:42.945] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022921599} /_vercel/insights/view
-[00:20:43.102] Browser LOG     a@gmail.com
-[00:20:43.102] Browser LOG     a@gmail.com
-[00:20:43.295] Browser LOG     a@gmail.com
-[00:20:43.295] Browser LOG     a@gmail.com
-[00:20:43.950] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:44.209] Browser LOG     user: null
-[00:20:44.615] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:20:44.615] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:20:44.615] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022923236} /_vercel/insights/view
-[00:20:45.076] Browser LOG     undefined
-[00:20:45.076] Browser LOG     undefined
-[00:20:45.076] Browser LOG     
-[00:20:45.076] Browser LOG     
-[00:20:45.077] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022923700} /_vercel/insights/view
-[00:20:45.191] Browser LOG     a@gmail.com
-[00:20:45.191] Browser LOG     a@gmail.com
-[00:20:45.609] Browser LOG     a@gmail.com
-[00:20:45.609] Browser LOG     a@gmail.com
-[00:20:45.725] Browser LOG     a@gmail.com
-[00:20:45.725] Browser LOG     a@gmail.com
-[00:21:54.417] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:54.804] Browser LOG     user: null
-[00:21:55.447] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:21:55.447] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:21:55.447] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022993851} /_vercel/insights/view
-[00:21:55.447] Browser LOG     undefined
-[00:21:55.447] Browser LOG     undefined
-[00:21:55.447] Browser LOG     
-[00:21:55.447] Browser LOG     
-[00:21:55.447] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022993984} /_vercel/insights/view
-[00:21:55.447] Browser LOG     a@gmail.com
-[00:21:55.447] Browser LOG     a@gmail.com
-[00:21:55.680] Browser LOG     a@gmail.com
-[00:21:55.680] Browser LOG     a@gmail.com
-[00:21:56.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:56.785] Browser LOG     user: null
-[00:21:57.421] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:21:57.421] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:21:57.421] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022995869} /_vercel/insights/view
-[00:21:57.421] Browser LOG     undefined
-[00:21:57.421] Browser LOG     undefined
-[00:21:57.421] Browser LOG     
-[00:21:57.421] Browser LOG     
-[00:21:57.421] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772022996054} /_vercel/insights/view
-[00:21:57.544] Browser LOG     a@gmail.com
-[00:21:57.544] Browser LOG     a@gmail.com
-[00:21:58.048] Browser LOG     a@gmail.com
-[00:21:58.048] Browser LOG     a@gmail.com
-[00:21:58.155] Browser LOG     a@gmail.com
-[00:21:58.155] Browser LOG     a@gmail.com
-[00:38:13.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:38:13.424] Browser LOG     user: null
-[00:38:13.902] Browser LOG     undefined
-[00:38:13.902] Browser LOG     undefined
-[00:38:13.902] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:38:13.902] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:38:13.902] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772023972412} /_vercel/insights/view
-[00:38:13.902] Browser LOG     
-[00:38:13.902] Browser LOG     
-[00:38:13.902] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772023972465} /_vercel/insights/view
-[00:38:13.902] Browser LOG     a@gmail.com
-[00:38:13.902] Browser LOG     a@gmail.com
-[00:38:15.340] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:38:15.627] Browser LOG     user: null
-[00:38:16.122] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:38:16.122] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:38:16.122] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772023974610} /_vercel/insights/view
-[00:38:16.122] Browser LOG     undefined
-[00:38:16.122] Browser LOG     undefined
-[00:38:16.122] Browser LOG     
-[00:38:16.122] Browser LOG     
-[00:38:16.122] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772023974759} /_vercel/insights/view
-[00:38:16.241] Browser LOG     a@gmail.com
-[00:38:16.241] Browser LOG     a@gmail.com
-[00:38:16.501] Browser LOG     a@gmail.com
-[00:38:16.501] Browser LOG     a@gmail.com
-[00:38:16.976] Browser LOG     a@gmail.com
-[00:38:16.976] Browser LOG     a@gmail.com
-[00:53:33.698] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:53:34.073] Browser LOG     user: null
-[00:53:34.546] Browser LOG     undefined
-[00:53:34.546] Browser LOG     undefined
-[00:53:34.546] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:53:34.546] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:53:34.546] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772024893045} /_vercel/insights/view
-[00:53:34.546] Browser LOG     
-[00:53:34.546] Browser LOG     
-[00:53:34.546] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772024893098} /_vercel/insights/view
-[00:53:34.546] Browser LOG     a@gmail.com
-[00:53:34.546] Browser LOG     a@gmail.com
-[00:53:34.962] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:53:35.308] Browser LOG     user: null
-[00:53:35.928] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:53:35.928] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:53:35.929] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772024894359} /_vercel/insights/view
-[00:53:35.929] Browser LOG     undefined
-[00:53:35.929] Browser LOG     undefined
-[00:53:35.929] Browser LOG     
-[00:53:35.929] Browser LOG     
-[00:53:35.929] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772024894488} /_vercel/insights/view
-[00:53:35.929] Browser LOG     a@gmail.com
-[00:53:35.929] Browser LOG     a@gmail.com
-[00:53:36.133] Browser LOG     a@gmail.com
-[00:53:36.133] Browser LOG     a@gmail.com
-[00:53:36.411] Browser LOG     a@gmail.com
-[00:53:36.411] Browser LOG     a@gmail.com
-[00:56:13.950] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:56:14.263] Browser LOG     user: null
-[00:56:14.504] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:56:14.504] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:56:14.504] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025053192} /_vercel/insights/view
-[00:56:14.873] Browser LOG     undefined
-[00:56:14.874] Browser LOG     undefined
-[00:56:14.874] Browser LOG     
-[00:56:14.874] Browser LOG     
-[00:56:14.874] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025053421} /_vercel/insights/view
-[00:56:14.874] Browser LOG     a@gmail.com
-[00:56:14.874] Browser LOG     a@gmail.com
-[00:56:15.270] Browser LOG     a@gmail.com
-[00:56:15.272] Browser LOG     a@gmail.com
-[00:56:15.342] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:56:15.401] Browser LOG     a@gmail.com
-[00:56:15.401] Browser LOG     a@gmail.com
-[00:56:15.667] Browser LOG     user: null
-[00:56:15.976] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:56:15.976] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:56:15.976] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025054651} /_vercel/insights/view
-[00:56:16.332] Browser LOG     undefined
-[00:56:16.332] Browser LOG     undefined
-[00:56:16.332] Browser LOG     
-[00:56:16.332] Browser LOG     
-[00:56:16.332] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025054975} /_vercel/insights/view
-[00:56:16.454] Browser LOG     a@gmail.com
-[00:56:16.455] Browser LOG     a@gmail.com
-[01:01:53.523] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:01:53.743] Browser LOG     user: null
-[01:01:53.921] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:01:53.921] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:01:53.921] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025392613} /_vercel/insights/view
-[01:02:00.258] Browser LOG     undefined
-[01:02:00.258] Browser LOG     undefined
-[01:02:00.258] Browser LOG     
-[01:02:00.258] Browser LOG     
-[01:02:00.258] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025398924} /_vercel/insights/view
-[01:02:01.818] Browser LOG     a@gmail.com
-[01:02:01.818] Browser LOG     a@gmail.com
-[01:02:09.786] Browser LOG     a@gmail.com
-[01:02:09.786] Browser LOG     a@gmail.com
-[01:02:09.898] Browser LOG     a@gmail.com
-[01:02:09.898] Browser LOG     a@gmail.com
-[01:02:10.619] Browser LOG     undefined
-[01:02:10.619] Browser LOG     undefined
-[01:02:10.619] Browser LOG     
-[01:02:10.619] Browser LOG     
-[01:02:12.016] Browser LOG     12345678
-[01:02:12.016] Browser LOG     12345678
-[01:02:13.023] Browser LOG     
-[01:02:13.023] Browser LOG     
-[01:02:13.779] Browser LOG     undefined
-[01:02:13.779] Browser LOG     undefined
-[01:02:13.779] Browser LOG     
-[01:02:13.779] Browser LOG     
-[01:02:21.223] Browser LOG     undefined
-[01:02:21.223] Browser LOG     undefined
-[01:02:21.223] Browser LOG     
-[01:02:21.223] Browser LOG     
-[01:02:22.428] Browser LOG     a@gmail.com
-[01:02:22.428] Browser LOG     a@gmail.com
-[01:02:28.559] Browser LOG     a@gmail.com
-[01:02:28.559] Browser LOG     a@gmail.com
-[01:02:30.763] Browser LOG     Usuario creado: {"avatar":"","collectionId":"_pb_users_auth_","collectionName":"users","created":"2026-02-25 13:17:07.960Z","emailVisibility":false,"id":"lral1ut2yiai5lc","name":"","updated":"2026-02-25 13:17:07.960Z","username":"users26137","verified":false}
-[01:02:30.867] Browser LOG     a@gmail.com
-[01:02:30.867] Browser LOG     a@gmail.com
-[01:02:54.392] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:02:54.800] Browser LOG     user: null
-[01:02:55.051] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:02:55.052] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:02:55.052] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025453724} /_vercel/insights/view
-[01:02:55.392] Browser LOG     undefined
-[01:02:55.392] Browser LOG     undefined
-[01:02:55.393] Browser LOG     
-[01:02:55.393] Browser LOG     
-[01:02:55.393] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025454048} /_vercel/insights/view
-[01:02:55.572] Browser LOG     a@gmail.com
-[01:02:55.572] Browser LOG     a@gmail.com
-[01:02:55.828] Browser LOG     a@gmail.com
-[01:02:55.828] Browser LOG     a@gmail.com
-[01:02:56.503] Browser LOG     a@gmail.com
-[01:02:56.503] Browser LOG     a@gmail.com
-[01:02:56.579] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:02:57.002] Browser LOG     user: [object Object]
-[01:02:57.002] Browser LOG     user: [object Object]
-[01:02:57.002] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025455583} /_vercel/insights/view
-[01:02:57.189] Browser LOG     user: null
-[01:02:57.634] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:02:57.634] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:02:57.634] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025456175} /_vercel/insights/view
-[01:02:58.180] Browser LOG     undefined
-[01:02:58.180] Browser LOG     undefined
-[01:02:58.180] Browser LOG     
-[01:02:58.180] Browser LOG     
-[01:02:58.180] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772025456796} /_vercel/insights/view
-[01:02:58.338] Browser LOG     a@gmail.com
-[01:02:58.338] Browser LOG     a@gmail.com
-[01:02:58.552] Browser LOG     a@gmail.com
-[01:02:58.552] Browser LOG     a@gmail.com
-[01:32:43.366] Browser LOG     undefined
-[01:32:43.366] Browser LOG     undefined
-[01:32:43.366] Browser LOG     
-[01:32:43.366] Browser LOG     
-[01:32:44.089] Browser LOG     a@gmail.com
-[01:32:44.089] Browser LOG     a@gmail.com
-[01:32:48.620] Browser LOG     a@gmail.com
-[01:32:48.620] Browser LOG     a@gmail.com
-[01:32:50.892] Browser LOG     a@gmail.com
-[01:32:50.892] Browser LOG     a@gmail.com
-[01:32:50.892] Browser LOG     user: [object Object]
-[01:32:50.892] Browser LOG     user: [object Object]
-[01:32:50.892] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772027249559} /_vercel/insights/view
-[01:32:53.361] Browser ERROR   uncaughtError: ReferenceError: handleLogout is not defined
-[01:32:53.361] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772027252037} /_vercel/insights/view
-[01:33:40.566] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:33:40.910] Server  LOG      ✓ Compiled in 239ms
-[01:33:41.500] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:33:42.449] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:33:42.449] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/profile","route":"/profile"}
-[01:33:42.449] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772027300510} /_vercel/insights/view
-[01:34:04.785] Browser LOG     user: null
-[01:34:04.785] Browser LOG     user: null
-[01:34:04.785] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772027323473} /_vercel/insights/view
-[01:34:07.460] Browser LOG     undefined
-[01:34:07.461] Browser LOG     undefined
-[01:34:07.461] Browser LOG     
-[01:34:07.461] Browser LOG     
-[01:34:07.461] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772027326137} /_vercel/insights/view
-[01:34:19.343] Browser LOG     a
-[01:34:19.343] Browser LOG     a
-[01:34:20.040] Browser LOG     a@
-[01:34:20.040] Browser LOG     a@
-[01:34:20.303] Browser LOG     a@g
-[01:34:20.303] Browser LOG     a@g
-[01:34:20.415] Browser LOG     a@gm
-[01:34:20.415] Browser LOG     a@gm
-[01:34:20.615] Browser LOG     a@gma
-[01:34:20.615] Browser LOG     a@gma
-[01:34:20.615] Browser LOG     a@gmai
-[01:34:20.615] Browser LOG     a@gmai
-[01:34:21.558] Browser LOG     a@gmail
-[01:34:21.559] Browser LOG     a@gmail
-[01:34:21.814] Browser LOG     a@gmail.
-[01:34:21.814] Browser LOG     a@gmail.
-[01:34:22.085] Browser LOG     a@gmail.c
-[01:34:22.085] Browser LOG     a@gmail.c
-[01:34:22.085] Browser LOG     a@gmail.co
-[01:34:22.085] Browser LOG     a@gmail.co
-[01:34:22.199] Browser LOG     a@gmail.com
-[01:34:22.200] Browser LOG     a@gmail.com
-[01:34:25.913] Browser LOG     a@gmail.com
-[01:34:25.913] Browser LOG     a@gmail.com
-[01:34:27.751] Browser LOG     a@gmail.com
-[01:34:27.751] Browser LOG     a@gmail.com
-[01:34:27.751] Browser LOG     user: [object Object]
-[01:34:27.751] Browser LOG     user: [object Object]
-[01:34:27.751] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772027346413} /_vercel/insights/view
-[01:58:36.196] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:58:36.481] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:58:36.481] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tournaments/create","route":"/tournaments/create"}
-[01:58:36.481] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/tournaments/create color: rgb(120, 120, 120) color: inherit {"dp":"/tournaments/create","o":"http://localhost:3000/tournaments/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772028795173} /_vercel/insights/view
-[01:58:40.057] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:58:40.291] Browser LOG     user: [object Object]
-[01:58:40.291] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:58:40.291] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:58:40.291] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772028798983} /_vercel/insights/view
-[01:58:44.530] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:58:44.704] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:58:44.704] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tournaments/create","route":"/tournaments/create"}
-[01:58:44.704] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/tournaments/create color: rgb(120, 120, 120) color: inherit {"dp":"/tournaments/create","o":"http://localhost:3000/tournaments/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772028803395} /_vercel/insights/view
-[02:00:45.730] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:00:45.971] Browser LOG     user: [object Object]
-[02:00:45.971] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:00:45.971] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:00:45.972] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772028924663} /_vercel/insights/view
-[02:00:52.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:00:53.040] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:00:53.040] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tournaments/create","route":"/tournaments/create"}
-[02:00:53.040] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/tournaments/create color: rgb(120, 120, 120) color: inherit {"dp":"/tournaments/create","o":"http://localhost:3000/tournaments/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772028931729} /_vercel/insights/view
-[02:03:20.932] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:03:21.172] Browser LOG     user: [object Object]
-[02:03:21.172] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:03:21.172] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:03:21.172] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772029079864} /_vercel/insights/view
-[02:04:33.174] Server  LOG      ✓ Compiled in 242ms
-[02:04:36.394] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:04:36.582] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:04:36.582] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tournamentsPage","route":"/tournamentsPage"}
-[02:04:36.582] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/tournamentsPage color: rgb(120, 120, 120) color: inherit {"dp":"/tournamentsPage","o":"http://localhost:3000/tournamentsPage","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772029155274} /_vercel/insights/view
-[02:05:29.927] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:05:30.110] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:05:30.110] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tournamentsPage","route":"/tournamentsPage"}
-[02:05:30.110] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/tournamentsPage color: rgb(120, 120, 120) color: inherit {"dp":"/tournamentsPage","o":"http://localhost:3000/tournamentsPage","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772029208801} /_vercel/insights/view
-[02:05:31.803] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:05:32.048] Browser LOG     user: [object Object]
-[02:05:32.048] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:05:32.048] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:05:32.048] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772029210740} /_vercel/insights/view
-[02:05:33.749] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:05:33.935] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:05:33.935] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/CreateTournamentForm","route":"/CreateTournamentForm"}
-[02:05:33.935] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/CreateTournamentForm color: rgb(120, 120, 120) color: inherit {"dp":"/CreateTournamentForm","o":"http://localhost:3000/CreateTournamentForm","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772029212627} /_vercel/insights/view
-[02:05:35.347] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:05:35.616] Browser LOG     user: [object Object]
-[02:05:35.616] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:05:35.616] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:05:35.616] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772029214307} /_vercel/insights/view
-[02:14:33.711] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:14:34.011] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:14:34.011] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/CreateTournamentForm","route":"/CreateTournamentForm"}
-[02:14:34.011] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/CreateTournamentForm color: rgb(120, 120, 120) color: inherit {"dp":"/CreateTournamentForm","o":"http://localhost:3000/CreateTournamentForm","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772029752703} /_vercel/insights/view
-[02:14:38.611] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:14:38.785] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:14:38.785] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/CreateTournamentForm","route":"/CreateTournamentForm"}
-[02:14:38.785] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/CreateTournamentForm color: rgb(120, 120, 120) color: inherit {"dp":"/CreateTournamentForm","o":"http://localhost:3000/CreateTournamentForm","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772029757474} /_vercel/insights/view
-[02:20:54.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:20:54.879] Browser LOG     user: [object Object]
-[02:20:54.879] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:20:54.880] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:20:54.880] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772030133571} /_vercel/insights/view
-[02:21:11.107] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:21:11.290] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:21:11.290] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/CreateTournamentForm","route":"/CreateTournamentForm"}
-[02:21:11.290] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/CreateTournamentForm color: rgb(120, 120, 120) color: inherit {"dp":"/CreateTournamentForm","o":"http://localhost:3000/CreateTournamentForm","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772030149980} /_vercel/insights/view
-[02:36:00.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:36:01.151] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:36:01.151] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/CreateTournamentForm","route":"/CreateTournamentForm"}
-[02:36:01.151] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/CreateTournamentForm color: rgb(120, 120, 120) color: inherit {"dp":"/CreateTournamentForm","o":"http://localhost:3000/CreateTournamentForm","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772031039844} /_vercel/insights/view
-[02:36:02.777] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:36:03.021] Browser LOG     user: [object Object]
-[02:36:03.021] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:36:03.021] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:36:03.021] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772031041712} /_vercel/insights/view
-[02:50:14.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:50:14.446] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:50:14.446] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/components/CreateTournamentFrom.tsx","route":"/components/CreateTournamentFrom.tsx"}
-[02:50:14.446] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/components/CreateTournamentFrom.tsx color: rgb(120, 120, 120) color: inherit {"dp":"/components/CreateTournamentFrom.tsx","o":"http://localhost:3000/components/CreateTournamentFrom.tsx","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772031893138} /_vercel/insights/view
-[02:51:05.831] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:51:06.007] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:51:06.007] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/components/CreateTournamentFrom.tsx","route":"/components/CreateTournamentFrom.tsx"}
-[02:51:06.007] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/components/CreateTournamentFrom.tsx color: rgb(120, 120, 120) color: inherit {"dp":"/components/CreateTournamentFrom.tsx","o":"http://localhost:3000/components/CreateTournamentFrom.tsx","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772031944698} /_vercel/insights/view
-[02:51:15.982] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:51:16.293] Browser LOG     user: [object Object]
-[02:51:16.293] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:51:16.293] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:51:16.293] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772031954984} /_vercel/insights/view
-[02:51:19.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:51:19.488] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:51:19.488] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/components/CreateTournamentForm.tsx","route":"/components/CreateTournamentForm.tsx"}
-[02:51:19.488] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/components/CreateTournamentForm.tsx color: rgb(120, 120, 120) color: inherit {"dp":"/components/CreateTournamentForm.tsx","o":"http://localhost:3000/components/CreateTournamentForm.tsx","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772031958179} /_vercel/insights/view
-[02:56:39.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:56:39.405] Browser LOG     user: [object Object]
-[02:56:39.405] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:56:39.405] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:56:39.405] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772032278097} /_vercel/insights/view
-[02:56:40.184] Browser LOG     undefined
-[02:56:40.184] Browser LOG     undefined
-[02:56:40.184] Browser LOG     
-[02:56:40.184] Browser LOG     
-[02:56:40.184] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772032278851} /_vercel/insights/view
-[02:56:45.535] Browser LOG     user: [object Object]
-[02:56:45.535] Browser LOG     user: [object Object]
-[02:56:45.535] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772032284197} /_vercel/insights/view
-[02:57:54.688] Server  LOG      ✓ Compiled in 215ms
-[02:58:01.078] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:58:01.257] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:58:01.257] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[02:58:01.258] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772032359949} /_vercel/insights/view
-[02:58:46.086] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:58:46.332] Browser LOG     user: [object Object]
-[02:58:46.333] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:58:46.333] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[02:58:46.333] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772032405024} /_vercel/insights/view
-[02:58:47.380] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:58:47.557] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[02:58:47.557] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[02:58:47.557] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772032406248} /_vercel/insights/view
-[03:02:06.024] Server  LOG      ○ Compiling /torneo ...
-[03:02:11.907] Server  ERROR    ⨯ Error: The default export is not a React Component in "/torneo/page"
-[03:02:12.401] Server  ERROR    ⨯ Error: The default export is not a React Component in "/torneo/page"
-[03:02:15.406] Server  LOG      ○ Compiling /_error ...
-[03:02:23.096] Server  ERROR    ⨯ ./app/components/CreateTournamentForm.tsx:1:10
+[00:00:08.463] Server  LOG      ✓ Ready in 5.2s
+[00:00:11.549] Server  LOG      ○ Compiling /profile ...
+[00:00:14.854] Browser LOG     user: [object Object]
+[00:00:14.854] Browser LOG     user: [object Object]
+[00:00:14.854] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218173005} /_vercel/insights/view
+[00:00:18.276] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218176429} /_vercel/insights/view
+[00:00:59.051] Browser LOG     user: [object Object]
+[00:00:59.052] Browser LOG     user: [object Object]
+[00:00:59.052] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218217202} /_vercel/insights/view
+[00:01:01.085] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218219206} /_vercel/insights/view
+[00:01:01.086] Browser ERROR   Error cargando torneos: {"cause":{},"isAbort":true,"name":"ClientResponseError 0","originalError":{},"response":{},"status":0,"url":""}
+[00:01:01.086] Browser ERROR   Error cargando torneos: {"cause":{"data":{"code":403,"data":{},"message":"Only admins can perform this action."},"status":403,"url":"http://127.0.0.1:8090/api/collections/tournaments/records?page=1&perPage=20&filter=creator%20%3D%20%22lral1ut2yiai5lc%22&sort=-created&expand=creator"},"isAbort":false,"name":"ClientResponseError 403","originalError":{"data":{"code":403,"data":{},"message":"Only admins can perform this action."},"status":403,"url":"http://127.0.0.1:8090/api/collections/tournaments/records?page=1&perPage=20&filter=creator%20%3D%20%22lral1ut2yiai5lc%22&sort=-created&expand=creator"},"response":{"code":403,"data":{},"message":"Only admins can perform this action."},"status":403,"url":"http://127.0.0.1:8090/api/collections/tournaments/records?page=1&perPage=20&filter=creator%20%3D%20%22lral1ut2yiai5lc%22&sort=-created&expand=creator"}
+[00:06:04.352] Browser LOG     user: [object Object]
+[00:06:04.353] Browser LOG     user: [object Object]
+[00:06:04.353] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218522501} /_vercel/insights/view
+[00:06:05.118] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218523269} /_vercel/insights/view
+[00:06:30.744] Browser LOG     user: [object Object]
+[00:06:30.744] Browser LOG     user: [object Object]
+[00:06:30.744] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218548895} /_vercel/insights/view
+[00:06:31.595] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218549712} /_vercel/insights/view
+[00:06:31.596] Browser ERROR   Error cargando torneos: {"cause":{},"isAbort":true,"name":"ClientResponseError 0","originalError":{},"response":{},"status":0,"url":""}
+[00:06:31.596] Browser ERROR   Error cargando torneos: {"cause":{"data":{"code":403,"data":{},"message":"Only admins can perform this action."},"status":403,"url":"http://127.0.0.1:8090/api/collections/tournaments/records?page=1&perPage=20&filter=creator%20%3D%20%22lral1ut2yiai5lc%22&sort=-created&expand=creator"},"isAbort":false,"name":"ClientResponseError 403","originalError":{"data":{"code":403,"data":{},"message":"Only admins can perform this action."},"status":403,"url":"http://127.0.0.1:8090/api/collections/tournaments/records?page=1&perPage=20&filter=creator%20%3D%20%22lral1ut2yiai5lc%22&sort=-created&expand=creator"},"response":{"code":403,"data":{},"message":"Only admins can perform this action."},"status":403,"url":"http://127.0.0.1:8090/api/collections/tournaments/records?page=1&perPage=20&filter=creator%20%3D%20%22lral1ut2yiai5lc%22&sort=-created&expand=creator"}
+[00:12:18.360] Browser LOG     user: [object Object]
+[00:12:18.360] Browser LOG     user: [object Object]
+[00:12:18.360] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218896512} /_vercel/insights/view
+[00:12:26.110] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:26.418] Browser LOG     user: [object Object]
+[00:12:26.418] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:26.418] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:12:26.418] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218904572} /_vercel/insights/view
+[00:12:29.424] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772218907564} /_vercel/insights/view
+[00:12:48.683] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {code, message, data}). If you meant to render a collection of children, use an array instead.
+[00:16:10.277] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:10.299] Server  LOG      ✓ Compiled in 153ms
+[00:16:11.045] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:12.059] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:12.060] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
+[00:16:12.060] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772219129406} /_vercel/insights/view
+[00:18:08.717] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:08.913] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:08.913] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
+[00:18:08.913] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772219247067} /_vercel/insights/view
+[00:34:04.377] Server  LOG     Usuario actual: {}
+[00:40:29.242] Server  LOG     Usuario actual: {}
+[00:40:31.995] Browser LOG     user: [object Object]
+[00:40:31.995] Browser LOG     user: [object Object]
+[00:40:31.995] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772220590114} /_vercel/insights/view
+[00:40:34.292] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772220592438} /_vercel/insights/view
+[00:40:35.663] Browser LOG     user: [object Object]
+[00:40:35.663] Browser LOG     user: [object Object]
+[00:40:35.663] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772220593810} /_vercel/insights/view
+[00:40:36.586] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772220594672} /_vercel/insights/view
+[00:40:36.586] Browser ERROR   Error cargando torneos: {"cause":{},"isAbort":true,"name":"ClientResponseError 0","originalError":{},"response":{},"status":0,"url":""}
+[00:40:36.998] Browser ERROR   Error cargando torneos: {"cause":{"data":{"code":403,"data":{},"message":"Only admins can perform this action."},"status":403,"url":"http://127.0.0.1:8090/api/collections/tournaments/records?page=1&perPage=20&filter=creator%20%3D%20%22lral1ut2yiai5lc%22&sort=-created&expand=creator"},"isAbort":false,"name":"ClientResponseError 403","originalError":{"data":{"code":403,"data":{},"message":"Only admins can perform this action."},"status":403,"url":"http://127.0.0.1:8090/api/collections/tournaments/records?page=1&perPage=20&filter=creator%20%3D%20%22lral1ut2yiai5lc%22&sort=-created&expand=creator"},"response":{"code":403,"data":{},"message":"Only admins can perform this action."},"status":403,"url":"http://127.0.0.1:8090/api/collections/tournaments/records?page=1&perPage=20&filter=creator%20%3D%20%22lral1ut2yiai5lc%22&sort=-created&expand=creator"}
+[00:44:41.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:42.167] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:42.167] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/profile","route":"/profile"}
+[00:44:42.167] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772220840321} /_vercel/insights/view
+[00:45:31.975] Browser LOG     user: null
+[00:45:31.975] Browser LOG     user: null
+[00:45:31.976] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772220890120} /_vercel/insights/view
+[00:45:39.332] Browser LOG     undefined
+[00:45:39.332] Browser LOG     undefined
+[00:45:39.332] Browser LOG     
+[00:45:39.332] Browser LOG     
+[00:45:39.332] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772220897464} /_vercel/insights/view
+[00:45:41.288] Browser LOG     undefined
+[00:45:41.288] Browser LOG     undefined
+[00:45:41.288] Browser LOG     
+[00:45:41.288] Browser LOG     
+[00:45:43.272] Browser LOG     undefined
+[00:45:43.272] Browser LOG     undefined
+[00:45:43.272] Browser LOG     
+[00:45:43.272] Browser LOG     
+[00:45:47.440] Browser LOG     b
+[00:45:47.440] Browser LOG     b
+[00:45:47.663] Browser LOG     be
+[00:45:47.663] Browser LOG     be
+[00:45:47.663] Browser LOG     ben
+[00:45:47.663] Browser LOG     ben
+[00:45:47.902] Browser LOG     benj
+[00:45:47.902] Browser LOG     benj
+[00:45:47.902] Browser LOG     benja
+[00:45:47.903] Browser LOG     benja
+[00:45:49.336] Browser LOG     benja@
+[00:45:49.336] Browser LOG     benja@
+[00:45:49.336] Browser LOG     benja@@
+[00:45:49.336] Browser LOG     benja@@
+[00:45:50.615] Browser LOG     benja@
+[00:45:50.615] Browser LOG     benja@
+[00:45:52.907] Browser LOG     undefined
+[00:45:52.907] Browser LOG     undefined
+[00:45:52.907] Browser LOG     
+[00:45:52.907] Browser LOG     
+[00:45:54.741] Browser LOG     b
+[00:45:54.741] Browser LOG     b
+[00:45:54.741] Browser LOG     be
+[00:45:54.741] Browser LOG     be
+[00:45:54.902] Browser LOG     ben
+[00:45:54.902] Browser LOG     ben
+[00:45:55.053] Browser LOG     benj
+[00:45:55.053] Browser LOG     benj
+[00:45:55.158] Browser LOG     benja
+[00:45:55.158] Browser LOG     benja
+[00:45:56.151] Browser LOG     benjam
+[00:45:56.151] Browser LOG     benjam
+[00:45:57.933] Browser LOG     benjam@
+[00:45:57.934] Browser LOG     benjam@
+[00:45:57.934] Browser LOG     benjam@@
+[00:45:57.934] Browser LOG     benjam@@
+[00:45:58.957] Browser LOG     benjam@
+[00:45:58.957] Browser LOG     benjam@
+[00:45:59.506] Browser LOG     benjam@g
+[00:45:59.506] Browser LOG     benjam@g
+[00:46:00.008] Browser LOG     benjam@gm
+[00:46:00.008] Browser LOG     benjam@gm
+[00:46:00.159] Browser LOG     benjam@gma
+[00:46:00.159] Browser LOG     benjam@gma
+[00:46:00.407] Browser LOG     benjam@gmai
+[00:46:00.407] Browser LOG     benjam@gmai
+[00:46:00.783] Browser LOG     benjam@gmail
+[00:46:00.783] Browser LOG     benjam@gmail
+[00:46:01.151] Browser LOG     benjam@gmail.
+[00:46:01.151] Browser LOG     benjam@gmail.
+[00:46:01.366] Browser LOG     benjam@gmail.c
+[00:46:01.366] Browser LOG     benjam@gmail.c
+[00:46:01.574] Browser LOG     benjam@gmail.co
+[00:46:01.574] Browser LOG     benjam@gmail.co
+[00:46:02.214] Browser LOG     benjam@gmail.com
+[00:46:02.214] Browser LOG     benjam@gmail.com
+[00:46:08.913] Browser LOG     benjam@gmail.com
+[00:46:08.913] Browser LOG     benjam@gmail.com
+[00:46:08.913] Browser LOG     benjam@gmail.com
+[00:46:08.913] Browser LOG     benjam@gmail.com
+[00:46:11.415] Browser LOG     benjam@gmail.com
+[00:46:11.415] Browser LOG     benjam@gmail.com
+[00:46:12.814] Browser LOG     benjam@gmail.com
+[00:46:12.814] Browser LOG     benjam@gmail.com
+[00:46:15.124] Browser LOG     benjam@gmail.com
+[00:46:15.124] Browser LOG     benjam@gmail.com
+[00:46:15.124] Browser LOG     benjam@gmail.com
+[00:46:15.125] Browser LOG     benjam@gmail.com
+[00:46:23.226] Browser LOG     benjam@gmail.com
+[00:46:23.226] Browser LOG     benjam@gmail.com
+[00:46:23.226] Browser LOG     benjam@gmail.com
+[00:46:23.226] Browser LOG     benjam@gmail.com
+[00:46:26.886] Browser LOG     benjam@gmail.com
+[00:46:26.886] Browser LOG     benjam@gmail.com
+[00:46:30.197] Browser LOG     Usuario creado: {"avatar":"","collectionId":"_pb_users_auth_","collectionName":"users","created":"2026-02-27 19:35:45.714Z","emailVisibility":false,"id":"ctxr4j25t86s4q0","name":"","updated":"2026-02-27 19:35:45.714Z","username":"users49237","verified":false}
+[00:46:30.326] Browser LOG     benjam@gmail.com
+[00:46:30.326] Browser LOG     benjam@gmail.com
+[00:46:34.740] Browser LOG     undefined
+[00:46:34.740] Browser LOG     undefined
+[00:46:34.740] Browser LOG     
+[00:46:34.740] Browser LOG     
+[00:46:39.960] Browser LOG     b
+[00:46:39.960] Browser LOG     b
+[00:46:39.960] Browser LOG     be
+[00:46:39.960] Browser LOG     be
+[00:46:40.086] Browser LOG     ben
+[00:46:40.086] Browser LOG     ben
+[00:46:40.188] Browser LOG     benj
+[00:46:40.188] Browser LOG     benj
+[00:46:40.301] Browser LOG     benja
+[00:46:40.301] Browser LOG     benja
+[00:46:40.533] Browser LOG     benjam
+[00:46:40.533] Browser LOG     benjam
+[00:46:41.973] Browser LOG     benjam@
+[00:46:41.973] Browser LOG     benjam@
+[00:46:41.973] Browser LOG     benjam@@
+[00:46:41.973] Browser LOG     benjam@@
+[00:46:42.901] Browser LOG     benjam@
+[00:46:42.901] Browser LOG     benjam@
+[00:46:44.351] Browser LOG     benjam@g
+[00:46:44.351] Browser LOG     benjam@g
+[00:46:44.933] Browser LOG     benjam@ga
+[00:46:44.933] Browser LOG     benjam@ga
+[00:46:45.893] Browser LOG     benjam@g
+[00:46:45.893] Browser LOG     benjam@g
+[00:46:47.414] Browser LOG     benjam@gm
+[00:46:47.414] Browser LOG     benjam@gm
+[00:46:47.573] Browser LOG     benjam@gma
+[00:46:47.573] Browser LOG     benjam@gma
+[00:46:47.877] Browser LOG     benjam@gmai
+[00:46:47.877] Browser LOG     benjam@gmai
+[00:46:48.221] Browser LOG     benjam@gmail
+[00:46:48.221] Browser LOG     benjam@gmail
+[00:46:48.813] Browser LOG     benjam@gmail.
+[00:46:48.813] Browser LOG     benjam@gmail.
+[00:46:48.998] Browser LOG     benjam@gmail.c
+[00:46:48.998] Browser LOG     benjam@gmail.c
+[00:46:49.164] Browser LOG     benjam@gmail.co
+[00:46:49.164] Browser LOG     benjam@gmail.co
+[00:46:49.484] Browser LOG     benjam@gmail.com
+[00:46:49.484] Browser LOG     benjam@gmail.com
+[00:46:49.484] Browser LOG     benjam@gmail.comk
+[00:46:49.484] Browser LOG     benjam@gmail.comk
+[00:46:50.300] Browser LOG     benjam@gmail.com
+[00:46:50.300] Browser LOG     benjam@gmail.com
+[00:46:54.799] Browser LOG     benjam@gmail.com
+[00:46:54.799] Browser LOG     benjam@gmail.com
+[00:46:57.180] Browser LOG     benjam@gmail.com
+[00:46:57.180] Browser LOG     benjam@gmail.com
+[00:46:57.180] Browser LOG     user: [object Object]
+[00:46:57.180] Browser LOG     user: [object Object]
+[00:46:57.180] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772220975295} /_vercel/insights/view
+[00:47:00.109] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772220978257} /_vercel/insights/view
+[00:47:00.109] Browser ERROR   Error cargando torneos: {"cause":{},"isAbort":true,"name":"ClientResponseError 0","originalError":{},"response":{},"status":0,"url":""}
+[00:52:08.710] Server  LOG      ✓ Compiled in 135ms
+[00:52:09.813] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [[object Object]] []
+[00:52:45.443] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:45.663] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:52:45.663] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/profile","route":"/profile"}
+[00:52:45.664] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221323817} /_vercel/insights/view
+[00:52:47.877] Browser LOG     user: [object Object]
+[00:52:47.877] Browser LOG     user: [object Object]
+[00:52:47.877] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221325979} /_vercel/insights/view
+[00:52:48.622] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221326767} /_vercel/insights/view
+[00:52:49.818] Browser LOG     user: [object Object]
+[00:52:49.818] Browser LOG     user: [object Object]
+[00:52:49.818] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221327954} /_vercel/insights/view
+[00:52:51.816] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221329964} /_vercel/insights/view
+[00:53:03.109] Browser LOG     user: [object Object]
+[00:53:03.109] Browser LOG     user: [object Object]
+[00:53:03.109] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221341251} /_vercel/insights/view
+[00:53:04.145] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221342296} /_vercel/insights/view
+[00:53:06.076] Browser LOG     user: [object Object]
+[00:53:06.076] Browser LOG     user: [object Object]
+[00:53:06.076] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221344225} /_vercel/insights/view
+[00:53:07.528] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221345681} /_vercel/insights/view
+[00:54:50.846] Server  LOG     Usuario actual: {}
+[00:54:54.395] Browser LOG     user: [object Object]
+[00:54:54.395] Browser LOG     user: [object Object]
+[00:54:54.395] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221452542} /_vercel/insights/view
+[00:54:55.550] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221453701} /_vercel/insights/view
+[01:00:33.600] Browser LOG     user: [object Object]
+[01:00:33.600] Browser LOG     user: [object Object]
+[01:00:33.600] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221791747} /_vercel/insights/view
+[01:00:34.429] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772221792581} /_vercel/insights/view
+[01:00:54.357] Server  LOG     Usuario actual: {}
+[01:01:13.234] Server  LOG     Usuario actual: {}
+[01:05:10.866] Server  LOG     Usuario actual: {}
+[01:05:21.197] Server  LOG     Usuario actual: {}
+[01:06:42.551] Browser LOG     user: [object Object]
+[01:06:42.551] Browser LOG     user: [object Object]
+[01:06:42.551] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222160703} /_vercel/insights/view
+[01:07:24.624] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222202777} /_vercel/insights/view
+[01:07:48.283] Server  LOG     Usuario actual: {}
+[01:08:23.643] Server  LOG     Usuario actual: {}
+[01:08:25.032] Server  LOG     Usuario actual: {}
+[01:08:27.570] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:27.779] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:08:27.779] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
+[01:08:27.779] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222265931} /_vercel/insights/view
+[01:08:43.402] Server  LOG     Usuario actual: {}
+[01:10:06.618] Server  LOG     Usuario actual: {}
+[01:11:46.138] Server  LOG      ✓ Compiled in 204ms
+[01:11:48.736] Browser LOG     user: [object Object]
+[01:11:48.736] Browser LOG     user: [object Object]
+[01:11:48.736] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222466855} /_vercel/insights/view
+[01:11:49.864] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222468010} /_vercel/insights/view
+[01:11:53.608] Browser LOG     user: null
+[01:11:53.608] Browser LOG     user: null
+[01:11:53.608] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222471759} /_vercel/insights/view
+[01:11:55.639] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222473774} /_vercel/insights/view
+[01:11:55.872] Browser LOG     undefined
+[01:11:55.872] Browser LOG     undefined
+[01:11:55.872] Browser LOG     
+[01:11:55.872] Browser LOG     
+[01:11:55.872] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222474010} /_vercel/insights/view
+[01:16:56.320] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222774460} /_vercel/insights/view
+[01:16:56.450] Browser LOG     undefined
+[01:16:56.450] Browser LOG     undefined
+[01:16:56.450] Browser LOG     
+[01:16:56.450] Browser LOG     
+[01:16:56.450] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222774593} /_vercel/insights/view
+[01:16:57.687] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222775829} /_vercel/insights/view
+[01:16:57.823] Browser LOG     undefined
+[01:16:57.823] Browser LOG     undefined
+[01:16:57.823] Browser LOG     
+[01:16:57.823] Browser LOG     
+[01:16:57.823] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222775965} /_vercel/insights/view
+[01:16:58.315] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222776455} /_vercel/insights/view
+[01:16:58.466] Browser LOG     undefined
+[01:16:58.466] Browser LOG     undefined
+[01:16:58.466] Browser LOG     
+[01:16:58.466] Browser LOG     
+[01:16:58.466] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222776607} /_vercel/insights/view
+[01:16:59.100] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222777122} /_vercel/insights/view
+[01:16:59.100] Browser LOG     undefined
+[01:16:59.100] Browser LOG     undefined
+[01:16:59.100] Browser LOG     
+[01:16:59.100] Browser LOG     
+[01:16:59.100] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222777245} /_vercel/insights/view
+[01:16:59.617] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222777480} /_vercel/insights/view
+[01:16:59.617] Browser LOG     undefined
+[01:16:59.617] Browser LOG     undefined
+[01:16:59.617] Browser LOG     
+[01:16:59.617] Browser LOG     
+[01:16:59.617] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222777609} /_vercel/insights/view
+[01:16:59.617] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222777645} /_vercel/insights/view
+[01:16:59.617] Browser LOG     undefined
+[01:16:59.617] Browser LOG     undefined
+[01:16:59.617] Browser LOG     
+[01:16:59.617] Browser LOG     
+[01:16:59.617] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222777759} /_vercel/insights/view
+[01:16:59.879] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222778003} /_vercel/insights/view
+[01:17:00.027] Browser LOG     undefined
+[01:17:00.027] Browser LOG     undefined
+[01:17:00.027] Browser LOG     
+[01:17:00.027] Browser LOG     
+[01:17:00.027] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222778170} /_vercel/insights/view
+[01:17:00.224] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222778366} /_vercel/insights/view
+[01:17:00.754] Browser LOG     undefined
+[01:17:00.754] Browser LOG     undefined
+[01:17:00.754] Browser LOG     
+[01:17:00.754] Browser LOG     
+[01:17:00.755] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222778495} /_vercel/insights/view
+[01:17:00.755] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222778624} /_vercel/insights/view
+[01:17:00.755] Browser LOG     undefined
+[01:17:00.755] Browser LOG     undefined
+[01:17:00.755] Browser LOG     
+[01:17:00.755] Browser LOG     
+[01:17:00.755] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222778757} /_vercel/insights/view
+[01:17:00.755] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222778788} /_vercel/insights/view
+[01:17:00.755] Browser LOG     undefined
+[01:17:00.755] Browser LOG     undefined
+[01:17:00.755] Browser LOG     
+[01:17:00.755] Browser LOG     
+[01:17:00.755] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222778896} /_vercel/insights/view
+[01:17:03.369] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:03.605] Browser LOG     user: null
+[01:17:03.605] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:17:03.605] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:17:03.606] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772222781759} /_vercel/insights/view
+[01:24:32.374] Server  LOG      ✓ Compiled in 191ms
+[01:24:33.122] Browser ERROR   ./app/page.tsx:17:9
 Ecmascript file had an error
-> 1 | import { useState } from "react";
-    |          ^^^^^^^^
-  2 | import { Button } from "@/components/ui/button";
-  3 | import { Input } from "@/components/ui/input";
-  4 | import { Label } from "@/components/ui/label";
+  15 |   const [user, setUser] = useState<any>(null);
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 17 |   const router = useRouter();
+     |         ^^^^^^
+  18 |
+  19 |   useEffect(() => {
+  20 |     const loggedUser = pb.authStore.model;
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `router` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-
-
-Import trace:
-  Server Component:
-    ./app/components/CreateTournamentForm.tsx
-    ./app/torneo/page.tsx
-
-
-
-./app/torneo/page.tsx:1:20
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:24:33.122] Browser ERROR   ./app/page.tsx:16:23
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |                    ^^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |                       ^^^^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
 
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `setTournaments` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-
-
-
-
-./app/torneo/page.tsx:1:10
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:24:33.122] Browser ERROR   ./app/page.tsx:15:16
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |          ^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |                ^^^^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `setUser` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-
-
-
-[03:02:23.125] Server  ERROR    ⨯ ./app/components/CreateTournamentForm.tsx:1:10
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:24:33.122] Browser ERROR   ./app/page.tsx:16:10
 Ecmascript file had an error
-> 1 | import { useState } from "react";
-    |          ^^^^^^^^
-  2 | import { Button } from "@/components/ui/button";
-  3 | import { Input } from "@/components/ui/input";
-  4 | import { Label } from "@/components/ui/label";
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |          ^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `tournaments` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-
-
-Import trace:
-  Server Component:
-    ./app/components/CreateTournamentForm.tsx
-    ./app/torneo/page.tsx
-
-
-
-./app/torneo/page.tsx:1:20
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:24:33.122] Browser ERROR   ./app/page.tsx:15:10
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |                    ^^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |          ^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
 
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `user` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-
-
-
-
-./app/torneo/page.tsx:1:10
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:25:19.048] Server  LOG      ✓ Compiled in 267ms
+[01:25:19.735] Browser ERROR   ./app/page.tsx:17:9
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |          ^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  15 |   const [user, setUser] = useState<any>(null);
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 17 |   const router = useRouter();
+     |         ^^^^^^
+  18 |
+  19 |   useEffect(() => {
+  20 |     const loggedUser = pb.authStore.model;
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `router` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-
-
-
-[03:02:23.530] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/torneo. Falling back to browser navigation. {}
-[03:02:23.635] Browser ERROR   ./app/components/CreateTournamentForm.tsx:1:10
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:25:19.735] Browser ERROR   ./app/page.tsx:16:23
 Ecmascript file had an error
-> 1 | import { useState } from "react";
-    |          ^^^^^^^^
-  2 | import { Button } from "@/components/ui/button";
-  3 | import { Input } from "@/components/ui/input";
-  4 | import { Label } from "@/components/ui/label";
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |                       ^^^^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `setTournaments` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-Import trace:
-  Server Component:
-    ./app/components/CreateTournamentForm.tsx
-    ./app/torneo/page.tsx
-[03:02:23.635] Browser ERROR   ./app/torneo/page.tsx:1:20
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:25:19.735] Browser ERROR   ./app/page.tsx:15:16
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |                    ^^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |                ^^^^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
 
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `setUser` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[03:02:23.635] Browser ERROR   ./app/torneo/page.tsx:1:10
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:25:19.735] Browser ERROR   ./app/page.tsx:16:10
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |          ^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |          ^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `tournaments` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[03:02:26.001] Browser ERROR   ./app/components/CreateTournamentForm.tsx:1:10
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:25:19.735] Browser ERROR   ./app/page.tsx:15:10
 Ecmascript file had an error
-> 1 | import { useState } from "react";
-    |          ^^^^^^^^
-  2 | import { Button } from "@/components/ui/button";
-  3 | import { Input } from "@/components/ui/input";
-  4 | import { Label } from "@/components/ui/label";
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |          ^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `user` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-Import trace:
-  Server Component:
-    ./app/components/CreateTournamentForm.tsx
-    ./app/torneo/page.tsx
-[03:02:26.001] Browser ERROR   ./app/torneo/page.tsx:1:20
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:27:21.381] Server  LOG      ✓ Compiled in 188ms
+[01:27:46.318] Server  LOG      ✓ Compiled in 148ms
+[01:27:46.421] Browser ERROR   ./app/page.tsx:17:9
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |                    ^^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  15 |   const [user, setUser] = useState<any>(null);
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 17 |   const router = useRouter();
+     |         ^^^^^^
+  18 |
+  19 |   useEffect(() => {
+  20 |     const loggedUser = pb.authStore.model;
 
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `router` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[03:02:26.001] Browser ERROR   ./app/torneo/page.tsx:1:10
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:27:46.421] Browser ERROR   ./app/page.tsx:16:23
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |          ^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |                       ^^^^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `setTournaments` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[03:02:27.064] Browser ERROR   ./app/components/CreateTournamentForm.tsx:1:10
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:27:46.421] Browser ERROR   ./app/page.tsx:15:16
 Ecmascript file had an error
-> 1 | import { useState } from "react";
-    |          ^^^^^^^^
-  2 | import { Button } from "@/components/ui/button";
-  3 | import { Input } from "@/components/ui/input";
-  4 | import { Label } from "@/components/ui/label";
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |                ^^^^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `setUser` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-Import trace:
-  Server Component:
-    ./app/components/CreateTournamentForm.tsx
-    ./app/torneo/page.tsx
-[03:02:27.064] Browser ERROR   ./app/torneo/page.tsx:1:20
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:27:46.421] Browser ERROR   ./app/page.tsx:16:10
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |                    ^^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |          ^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
 
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `tournaments` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[03:02:27.064] Browser ERROR   ./app/torneo/page.tsx:1:10
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:27:46.421] Browser ERROR   ./app/page.tsx:15:10
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |          ^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |          ^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `user` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[03:02:30.139] Browser ERROR   uncaughtError: Error: ./app/components/CreateTournamentForm.tsx:1:10
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:29:14.632] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:29:14.856] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:29:14.856] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:29:14.856] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223513010} /_vercel/insights/view
+[01:29:20.474] Server  LOG      ✓ Compiled in 183ms
+[01:29:21.240] Browser ERROR   ./app/page.tsx:17:9
 Ecmascript file had an error
-> 1 | import { useState } from "react";
-    |          ^^^^^^^^
-  2 | import { Button } from "@/components/ui/button";
-  3 | import { Input } from "@/components/ui/input";
-  4 | import { Label } from "@/components/ui/label";
+  15 |   const [user, setUser] = useState<any>(null);
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 17 |   const router = useRouter();
+     |         ^^^^^^
+  18 |
+  19 |   useEffect(() => {
+  20 |     const loggedUser = pb.authStore.model;
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `router` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-
-
-Import trace:
-  Server Component:
-    ./app/components/CreateTournamentForm.tsx
-    ./app/torneo/page.tsx
-
-
-[03:02:30.284] Browser ERROR   ./app/components/CreateTournamentForm.tsx:1:10
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:29:21.240] Browser ERROR   ./app/page.tsx:16:23
 Ecmascript file had an error
-> 1 | import { useState } from "react";
-    |          ^^^^^^^^
-  2 | import { Button } from "@/components/ui/button";
-  3 | import { Input } from "@/components/ui/input";
-  4 | import { Label } from "@/components/ui/label";
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |                       ^^^^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `setTournaments` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-Import trace:
-  Server Component:
-    ./app/components/CreateTournamentForm.tsx
-    ./app/torneo/page.tsx
-[03:02:30.284] Browser ERROR   ./app/torneo/page.tsx:1:20
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:29:21.240] Browser ERROR   ./app/page.tsx:15:16
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |                    ^^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |                ^^^^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
 
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `setUser` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[03:02:30.284] Browser ERROR   ./app/torneo/page.tsx:1:10
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:29:21.240] Browser ERROR   ./app/page.tsx:16:10
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |          ^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |          ^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `tournaments` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[03:02:30.440] Browser ERROR   ./app/components/CreateTournamentForm.tsx:1:10
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:29:21.240] Browser ERROR   ./app/page.tsx:15:10
 Ecmascript file had an error
-> 1 | import { useState } from "react";
-    |          ^^^^^^^^
-  2 | import { Button } from "@/components/ui/button";
-  3 | import { Input } from "@/components/ui/input";
-  4 | import { Label } from "@/components/ui/label";
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |          ^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `user` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
 
-Import trace:
-  Server Component:
-    ./app/components/CreateTournamentForm.tsx
-    ./app/torneo/page.tsx
-[03:02:30.440] Browser ERROR   ./app/torneo/page.tsx:1:20
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:37.104] Server  LOG      ✓ Compiled in 153ms
+[01:30:37.905] Browser ERROR   ./app/page.tsx:86:67
+Parsing ecmascript source code failed
+  84 |       </header>
+  85 |
+> 86 |       {/* TODO TU CONTENIDO QUEDA EXACTAMENTE IGUAL DESDE ACÁ */}
+     |                                                                   ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:47.181] Server  ERROR    ⨯ ./app/page.tsx:86:67
+Parsing ecmascript source code failed
+  84 |       </header>
+  85 |
+> 86 |       {/* TODO TU CONTENIDO QUEDA EXACTAMENTE IGUAL DESDE ACÁ */}
+     |                                                                   ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[01:30:48.288] Browser ERROR   ./app/page.tsx:86:67
+Parsing ecmascript source code failed
+  84 |       </header>
+  85 |
+> 86 |       {/* TODO TU CONTENIDO QUEDA EXACTAMENTE IGUAL DESDE ACÁ */}
+     |                                                                   ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:49.047] Browser ERROR   ./app/page.tsx:86:67
+Parsing ecmascript source code failed
+  84 |       </header>
+  85 |
+> 86 |       {/* TODO TU CONTENIDO QUEDA EXACTAMENTE IGUAL DESDE ACÁ */}
+     |                                                                   ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:49.329] Browser ERROR   ./app/page.tsx:86:67
+Parsing ecmascript source code failed
+  84 |       </header>
+  85 |
+> 86 |       {/* TODO TU CONTENIDO QUEDA EXACTAMENTE IGUAL DESDE ACÁ */}
+     |                                                                   ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:51.263] Browser ERROR   uncaughtError: Error: ./app/page.tsx:86:67
+Parsing ecmascript source code failed
+  84 |       </header>
+  85 |
+> 86 |       {/* TODO TU CONTENIDO QUEDA EXACTAMENTE IGUAL DESDE ACÁ */}
+     |                                                                   ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[01:30:51.263] Browser ERROR   ./app/page.tsx:86:67
+Parsing ecmascript source code failed
+  84 |       </header>
+  85 |
+> 86 |       {/* TODO TU CONTENIDO QUEDA EXACTAMENTE IGUAL DESDE ACÁ */}
+     |                                                                   ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:51.366] Browser ERROR   ./app/page.tsx:86:67
+Parsing ecmascript source code failed
+  84 |       </header>
+  85 |
+> 86 |       {/* TODO TU CONTENIDO QUEDA EXACTAMENTE IGUAL DESDE ACÁ */}
+     |                                                                   ^
+
+Expected '</', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:55.287] Browser ERROR   ./app/page.tsx:17:9
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |                    ^^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  15 |   const [user, setUser] = useState<any>(null);
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 17 |   const router = useRouter();
+     |         ^^^^^^
+  18 |
+  19 |   useEffect(() => {
+  20 |     const loggedUser = pb.authStore.model;
 
-You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `router` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[03:02:30.440] Browser ERROR   ./app/torneo/page.tsx:1:10
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:55.287] Browser ERROR   ./app/page.tsx:16:23
 Ecmascript file had an error
-> 1 | import { useState, useEffect } from "react";
-    |          ^^^^^^^^
-  2 | import CreateTournamentForm from "../components/CreateTournamentForm";  // Asumiendo que este componente está en la carpeta components
-  3 |
-  4 | type TournamentFormData = {
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |                       ^^^^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
 
-You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+the name `setTournaments` is defined multiple times
 
- Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
-[03:03:02.164] Server  LOG      ✓ Compiled in 331ms
-[03:03:02.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:03:03.218] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[03:03:03.218] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[03:03:03.218] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772032661909} /_vercel/insights/view
-[04:27:10.108] Server  LOG      ✓ Compiled in 1925ms
-[04:31:28.850] Server  LOG      ✓ Compiled in 458ms
-[04:31:43.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[04:31:43.838] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[04:31:43.838] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[04:31:43.838] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772037982529} /_vercel/insights/view
-[04:32:52.864] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[04:32:53.123] Browser LOG     user: [object Object]
-[04:32:53.123] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[04:32:53.123] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[04:32:53.123] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772038051815} /_vercel/insights/view
-[04:32:54.390] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772038053075} /_vercel/insights/view
-[04:32:55.835] Browser LOG     user: [object Object]
-[04:32:55.835] Browser LOG     user: [object Object]
-[04:32:55.835] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772038054516} /_vercel/insights/view
-[04:33:02.405] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772038061084} /_vercel/insights/view
-[04:37:37.379] Server  LOG      ✓ Compiled in 149ms
-[04:37:41.467] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[04:37:41.661] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[04:37:41.661] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[04:37:41.661] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772038340353} /_vercel/insights/view
-[04:38:07.171] Browser LOG     Torneo creado: {"categoria":"E-Sports","creadorId":"lral1ut2yiai5lc","descripcion":"juego digital de 3v3","estado":"Creado","fechaInicio":"2026-02-27","limite":6,"nombre":"adas","publicado":false,"reglas":"no se roba"}
-[04:50:05.934] Server  LOG      ✓ Compiled in 293ms
-[04:55:53.195] Server  LOG      ✓ Compiled in 171ms
-[04:56:10.740] Server  LOG      ✓ Compiled in 274ms
-[04:56:27.932] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[04:56:28.134] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[04:56:28.134] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[04:56:28.134] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772039466826} /_vercel/insights/view
-[05:23:32.031] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:23:32.243] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[05:23:32.243] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[05:23:32.243] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772041090935} /_vercel/insights/view
-[05:42:26.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:42:26.908] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[05:42:26.908] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[05:42:26.908] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772042225600} /_vercel/insights/view
-[05:46:50.557] Browser LOG     user: [object Object]
-[05:46:50.557] Browser LOG     user: [object Object]
-[05:46:50.557] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#features color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#features","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772042489213} /_vercel/insights/view
-[05:47:10.968] Server  LOG      ✓ Compiled in 318ms
-[05:47:17.610] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772042516297} /_vercel/insights/view
-[05:48:37.828] Browser LOG     user: [object Object]
-[05:48:37.828] Browser LOG     user: [object Object]
-[05:48:37.828] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#features color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#features","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772042596516} /_vercel/insights/view
-[05:48:40.583] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:48:40.829] Browser LOG     user: [object Object]
-[05:48:40.829] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[05:48:40.829] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[05:48:40.829] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#features color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#features","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772042599521} /_vercel/insights/view
-[05:48:42.641] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:48:42.887] Browser LOG     user: [object Object]
-[05:48:42.887] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[05:48:42.887] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[05:48:42.887] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#features color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#features","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772042601578} /_vercel/insights/view
-[05:48:43.408] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772042602097} /_vercel/insights/view
-[05:49:01.279] Server  LOG      ✓ Compiled in 199ms
-[05:49:05.012] Browser LOG     user: [object Object]
-[05:49:05.012] Browser LOG     user: [object Object]
-[05:49:05.012] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#features color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#features","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772042623700} /_vercel/insights/view
-[05:49:06.381] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772042625071} /_vercel/insights/view
-[05:49:28.978] Server  LOG      ✓ Compiled in 124ms
-[05:49:31.013] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[05:49:31.218] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[05:49:31.218] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[05:49:31.218] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772042649910} /_vercel/insights/view
-[06:17:28.445] Server  LOG      ✓ Compiled in 204ms
-[06:17:37.213] Server  LOG      ✓ Compiled in 237ms
-[06:19:10.053] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[06:19:10.266] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[06:19:10.266] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[06:19:10.266] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772044428957} /_vercel/insights/view
-[06:19:11.676] Browser LOG     user: [object Object]
-[06:19:11.676] Browser LOG     user: [object Object]
-[06:19:11.676] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#features color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#features","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772044430330} /_vercel/insights/view
-[06:19:13.193] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772044431883} /_vercel/insights/view
-[06:29:53.932] Browser ERROR   {"cause":{"data":{"code":404,"data":{},"message":"The requested resource wasn't found."},"status":404,"url":"http://127.0.0.1:8090/api/collections/tournaments/records"},"isAbort":false,"name":"ClientResponseError 404","originalError":{"data":{"code":404,"data":{},"message":"The requested resource wasn't found."},"status":404,"url":"http://127.0.0.1:8090/api/collections/tournaments/records"},"response":{"code":404,"data":{},"message":"The requested resource wasn't found."},"status":404,"url":"http://127.0.0.1:8090/api/collections/tournaments/records"}
-[06:32:17.566] Server  LOG      ✓ Compiled in 214ms
-[06:32:27.868] Browser ERROR   {}
-[06:32:31.912] Browser ERROR   {}
-[06:32:43.260] Browser ERROR   {}
-[06:35:26.090] Browser ERROR   {}
-[06:57:26.400] Server  LOG      ✓ Compiled in 171ms
-[06:58:50.513] Server  LOG      ✓ Compiled in 149ms
-[07:14:46.168] Server  LOG      ✓ Compiled in 122ms
-[07:14:50.554] Browser ERROR   {}
-[07:24:38.087] Server  LOG      ✓ Compiled in 166ms
-[07:24:48.546] Server  ERROR   ERROR CREAR TORNEO: ClientResponseError 0: Something went wrong.
-[07:26:36.333] Server  ERROR   ERROR CREAR TORNEO: ClientResponseError 0: Something went wrong.
-[07:29:15.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[07:29:16.387] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[07:29:16.387] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/torneo","route":"/torneo"}
-[07:29:16.387] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772048635037} /_vercel/insights/view
-[07:30:05.164] Server  ERROR   ERROR CREAR TORNEO: ClientResponseError 0: Something went wrong.
-[07:57:34.085] Server  ERROR   ERROR CREAR TORNEO: ClientResponseError 0: Something went wrong.
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:55.287] Browser ERROR   ./app/page.tsx:15:16
+Ecmascript file had an error
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |                ^^^^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
+
+the name `setUser` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:55.287] Browser ERROR   ./app/page.tsx:16:10
+Ecmascript file had an error
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |          ^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
+
+the name `tournaments` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:55.287] Browser ERROR   ./app/page.tsx:15:10
+Ecmascript file had an error
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |          ^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
+
+the name `user` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:56.281] Server  ERROR    ⨯ ./app/page.tsx:17:9
+Ecmascript file had an error
+  15 |   const [user, setUser] = useState<any>(null);
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 17 |   const router = useRouter();
+     |         ^^^^^^
+  18 |
+  19 |   useEffect(() => {
+  20 |     const loggedUser = pb.authStore.model;
+
+the name `router` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:16:23
+Ecmascript file had an error
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |                       ^^^^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
+
+the name `setTournaments` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:15:16
+Ecmascript file had an error
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |                ^^^^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
+
+the name `setUser` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:16:10
+Ecmascript file had an error
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |          ^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
+
+the name `tournaments` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:15:10
+Ecmascript file had an error
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |          ^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
+
+the name `user` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[01:30:56.693] Browser ERROR   uncaughtError: Error: ./app/page.tsx:17:9
+Ecmascript file had an error
+  15 |   const [user, setUser] = useState<any>(null);
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 17 |   const router = useRouter();
+     |         ^^^^^^
+  18 |
+  19 |   useEffect(() => {
+  20 |     const loggedUser = pb.authStore.model;
+
+the name `router` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[01:30:56.886] Browser ERROR   ./app/page.tsx:17:9
+Ecmascript file had an error
+  15 |   const [user, setUser] = useState<any>(null);
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 17 |   const router = useRouter();
+     |         ^^^^^^
+  18 |
+  19 |   useEffect(() => {
+  20 |     const loggedUser = pb.authStore.model;
+
+the name `router` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:56.886] Browser ERROR   ./app/page.tsx:16:23
+Ecmascript file had an error
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |                       ^^^^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
+
+the name `setTournaments` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:56.886] Browser ERROR   ./app/page.tsx:15:16
+Ecmascript file had an error
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |                ^^^^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
+
+the name `setUser` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:56.886] Browser ERROR   ./app/page.tsx:16:10
+Ecmascript file had an error
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |          ^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
+
+the name `tournaments` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:56.886] Browser ERROR   ./app/page.tsx:15:10
+Ecmascript file had an error
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |          ^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
+
+the name `user` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:56.886] Browser ERROR   ./app/page.tsx:17:9
+Ecmascript file had an error
+  15 |   const [user, setUser] = useState<any>(null);
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 17 |   const router = useRouter();
+     |         ^^^^^^
+  18 |
+  19 |   useEffect(() => {
+  20 |     const loggedUser = pb.authStore.model;
+
+the name `router` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:56.886] Browser ERROR   ./app/page.tsx:16:23
+Ecmascript file had an error
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |                       ^^^^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
+
+the name `setTournaments` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:56.886] Browser ERROR   ./app/page.tsx:15:16
+Ecmascript file had an error
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |                ^^^^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
+
+the name `setUser` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:56.886] Browser ERROR   ./app/page.tsx:16:10
+Ecmascript file had an error
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  15 |   const [user, setUser] = useState<any>(null);
+> 16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+     |          ^^^^^^^^^^^
+  17 |   const router = useRouter();
+  18 |
+  19 |   useEffect(() => {
+
+the name `tournaments` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:30:56.886] Browser ERROR   ./app/page.tsx:15:10
+Ecmascript file had an error
+  13 |   const router = useRouter();
+  14 |   const [tournaments, setTournaments] = useState<any[]>([]);
+> 15 |   const [user, setUser] = useState<any>(null);
+     |          ^^^^
+  16 |   const [tournaments, setTournaments] = useState<any[]>([]);
+  17 |   const router = useRouter();
+  18 |
+
+the name `user` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[01:31:14.333] Server  LOG      ✓ Compiled in 154ms
+[01:31:15.198] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:15.490] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:31:15.490] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:31:15.490] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223633643} /_vercel/insights/view
+[01:31:21.328] Browser LOG     undefined
+[01:31:21.328] Browser LOG     undefined
+[01:31:21.328] Browser LOG     
+[01:31:21.328] Browser LOG     
+[01:31:21.328] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223639452} /_vercel/insights/view
+[01:31:23.072] Browser LOG     a
+[01:31:23.072] Browser LOG     a
+[01:31:23.072] Browser LOG     as
+[01:31:23.072] Browser LOG     as
+[01:31:23.864] Browser LOG     a
+[01:31:23.865] Browser LOG     a
+[01:31:24.007] Browser LOG     ad
+[01:31:24.007] Browser LOG     ad
+[01:31:25.112] Browser LOG     ad@
+[01:31:25.112] Browser LOG     ad@
+[01:31:25.416] Browser LOG     ad@g
+[01:31:25.416] Browser LOG     ad@g
+[01:31:25.416] Browser LOG     ad@gm
+[01:31:25.416] Browser LOG     ad@gm
+[01:31:25.608] Browser LOG     ad@gma
+[01:31:25.608] Browser LOG     ad@gma
+[01:31:25.608] Browser LOG     ad@gmai
+[01:31:25.608] Browser LOG     ad@gmai
+[01:31:25.824] Browser LOG     ad@gmail
+[01:31:25.824] Browser LOG     ad@gmail
+[01:31:26.000] Browser LOG     ad@gmail.
+[01:31:26.000] Browser LOG     ad@gmail.
+[01:31:26.270] Browser LOG     ad@gmail.c
+[01:31:26.270] Browser LOG     ad@gmail.c
+[01:31:26.270] Browser LOG     ad@gmail.co
+[01:31:26.270] Browser LOG     ad@gmail.co
+[01:31:26.271] Browser LOG     ad@gmail.com
+[01:31:26.271] Browser LOG     ad@gmail.com
+[01:31:32.410] Browser LOG     ad@gmail.com
+[01:31:32.411] Browser LOG     ad@gmail.com
+[01:31:32.525] Browser LOG     ad@gmail.com
+[01:31:32.525] Browser LOG     ad@gmail.com
+[01:31:33.001] Browser LOG     ad@gmail.com
+[01:31:33.001] Browser LOG     ad@gmail.com
+[01:31:50.122] Browser LOG     a@gmail.com
+[01:31:50.122] Browser LOG     a@gmail.com
+[01:31:50.240] Browser LOG     as@gmail.com
+[01:31:50.240] Browser LOG     as@gmail.com
+[01:31:50.428] Browser LOG     as@gmail.com
+[01:31:50.428] Browser LOG     as@gmail.com
+[01:31:52.161] Browser LOG     as@gmail.com
+[01:31:52.161] Browser LOG     as@gmail.com
+[01:31:52.161] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223670288} /_vercel/insights/view
+[01:31:59.726] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223677876} /_vercel/insights/view
+[01:32:02.797] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223680946} /_vercel/insights/view
+[01:32:04.025] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223682176} /_vercel/insights/view
+[01:32:22.801] Server  LOG     Usuario actual: {}
+[01:32:26.228] Server  LOG     Usuario actual: {}
+[01:32:28.534] Server  LOG     Usuario actual: {}
+[01:32:30.476] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223708628} /_vercel/insights/view
+[01:32:32.544] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223710692} /_vercel/insights/view
+[01:35:17.327] Server  LOG      ✓ Compiled in 288ms
+[01:35:28.422] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223886569} /_vercel/insights/view
+[01:35:33.349] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223891501} /_vercel/insights/view
+[01:35:36.327] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223894477} /_vercel/insights/view
+[01:35:37.482] Browser LOG     undefined
+[01:35:37.482] Browser LOG     undefined
+[01:35:37.482] Browser LOG     
+[01:35:37.482] Browser LOG     
+[01:35:37.482] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223895622} /_vercel/insights/view
+[01:35:38.607] Browser LOG     undefined
+[01:35:38.607] Browser LOG     undefined
+[01:35:38.607] Browser LOG     
+[01:35:38.607] Browser LOG     
+[01:35:46.324] Browser LOG     d
+[01:35:46.324] Browser LOG     d
+[01:35:46.324] Browser LOG     da
+[01:35:46.324] Browser LOG     da
+[01:35:46.324] Browser LOG     das
+[01:35:46.324] Browser LOG     das
+[01:35:49.115] Browser LOG     das@
+[01:35:49.115] Browser LOG     das@
+[01:35:49.321] Browser LOG     das@g
+[01:35:49.321] Browser LOG     das@g
+[01:35:49.440] Browser LOG     das@gm
+[01:35:49.440] Browser LOG     das@gm
+[01:35:49.553] Browser LOG     das@gma
+[01:35:49.553] Browser LOG     das@gma
+[01:35:49.670] Browser LOG     das@gmai
+[01:35:49.670] Browser LOG     das@gmai
+[01:35:49.874] Browser LOG     das@gmail
+[01:35:49.874] Browser LOG     das@gmail
+[01:35:50.034] Browser LOG     das@gmail.
+[01:35:50.034] Browser LOG     das@gmail.
+[01:35:50.338] Browser LOG     das@gmail.c
+[01:35:50.338] Browser LOG     das@gmail.c
+[01:35:50.338] Browser LOG     das@gmail.co
+[01:35:50.338] Browser LOG     das@gmail.co
+[01:35:50.339] Browser LOG     das@gmail.com
+[01:35:50.339] Browser LOG     das@gmail.com
+[01:35:56.964] Browser LOG     das@gmail.com
+[01:35:56.964] Browser LOG     das@gmail.com
+[01:35:59.017] Browser LOG     Usuario creado: {"avatar":"","collectionId":"_pb_users_auth_","collectionName":"users","created":"2026-02-27 20:25:15.801Z","emailVisibility":false,"id":"9333qs7vohidfvc","name":"","updated":"2026-02-27 20:25:15.801Z","username":"users69667","verified":false}
+[01:35:59.119] Browser LOG     das@gmail.com
+[01:35:59.120] Browser LOG     das@gmail.com
+[01:35:59.638] Browser LOG     undefined
+[01:35:59.638] Browser LOG     undefined
+[01:35:59.638] Browser LOG     
+[01:35:59.638] Browser LOG     
+[01:36:00.826] Browser LOG     d
+[01:36:00.826] Browser LOG     d
+[01:36:00.826] Browser LOG     da
+[01:36:00.826] Browser LOG     da
+[01:36:00.826] Browser LOG     das
+[01:36:00.826] Browser LOG     das
+[01:36:02.130] Browser LOG     das@
+[01:36:02.130] Browser LOG     das@
+[01:36:02.371] Browser LOG     das@g
+[01:36:02.371] Browser LOG     das@g
+[01:36:02.562] Browser LOG     das@gm
+[01:36:02.562] Browser LOG     das@gm
+[01:36:02.562] Browser LOG     das@gma
+[01:36:02.562] Browser LOG     das@gma
+[01:36:02.673] Browser LOG     das@gmai
+[01:36:02.673] Browser LOG     das@gmai
+[01:36:02.914] Browser LOG     das@gmail
+[01:36:02.914] Browser LOG     das@gmail
+[01:36:03.082] Browser LOG     das@gmail.
+[01:36:03.082] Browser LOG     das@gmail.
+[01:36:03.194] Browser LOG     das@gmail.c
+[01:36:03.194] Browser LOG     das@gmail.c
+[01:36:03.354] Browser LOG     das@gmail.co
+[01:36:03.354] Browser LOG     das@gmail.co
+[01:36:03.354] Browser LOG     das@gmail.com
+[01:36:03.354] Browser LOG     das@gmail.com
+[01:36:05.153] Browser LOG     das@gmail.com1
+[01:36:05.153] Browser LOG     das@gmail.com1
+[01:36:05.153] Browser LOG     das@gmail.com12
+[01:36:05.153] Browser LOG     das@gmail.com12
+[01:36:05.345] Browser LOG     das@gmail.com123
+[01:36:05.345] Browser LOG     das@gmail.com123
+[01:36:05.562] Browser LOG     das@gmail.com1234
+[01:36:05.562] Browser LOG     das@gmail.com1234
+[01:36:05.802] Browser LOG     das@gmail.com12345
+[01:36:05.802] Browser LOG     das@gmail.com12345
+[01:36:06.009] Browser LOG     das@gmail.com123456
+[01:36:06.010] Browser LOG     das@gmail.com123456
+[01:36:08.337] Browser LOG     das@gmail.com12345
+[01:36:08.337] Browser LOG     das@gmail.com12345
+[01:36:08.481] Browser LOG     das@gmail.com1234
+[01:36:08.481] Browser LOG     das@gmail.com1234
+[01:36:08.618] Browser LOG     das@gmail.com123
+[01:36:08.618] Browser LOG     das@gmail.com123
+[01:36:08.744] Browser LOG     das@gmail.com12
+[01:36:08.744] Browser LOG     das@gmail.com12
+[01:36:08.882] Browser LOG     das@gmail.com1
+[01:36:08.882] Browser LOG     das@gmail.com1
+[01:36:09.017] Browser LOG     das@gmail.com
+[01:36:09.017] Browser LOG     das@gmail.com
+[01:36:13.259] Browser LOG     das@gmail.com
+[01:36:13.259] Browser LOG     das@gmail.com
+[01:36:15.387] Browser LOG     das@gmail.com
+[01:36:15.387] Browser LOG     das@gmail.com
+[01:36:15.387] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223933514} /_vercel/insights/view
+[01:37:06.835] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772223984987} /_vercel/insights/view
+[01:37:32.593] Server  LOG     Usuario actual: {}
+[01:37:34.868] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224013020} /_vercel/insights/view
+[01:37:36.815] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224014966} /_vercel/insights/view
+[01:38:19.083] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224057235} /_vercel/insights/view
+[01:38:25.111] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224063259} /_vercel/insights/view
+[01:38:26.029] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224064175} /_vercel/insights/view
+[01:38:27.087] Browser LOG     undefined
+[01:38:27.087] Browser LOG     undefined
+[01:38:27.087] Browser LOG     
+[01:38:27.087] Browser LOG     
+[01:38:27.087] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224065229} /_vercel/insights/view
+[01:38:28.103] Browser LOG     a
+[01:38:28.103] Browser LOG     a
+[01:38:28.214] Browser LOG     as
+[01:38:28.214] Browser LOG     as
+[01:38:29.870] Browser LOG     as@
+[01:38:29.870] Browser LOG     as@
+[01:38:30.134] Browser LOG     as@g
+[01:38:30.134] Browser LOG     as@g
+[01:38:30.238] Browser LOG     as@gm
+[01:38:30.238] Browser LOG     as@gm
+[01:38:30.438] Browser LOG     as@gma
+[01:38:30.438] Browser LOG     as@gma
+[01:38:30.438] Browser LOG     as@gmai
+[01:38:30.438] Browser LOG     as@gmai
+[01:38:30.622] Browser LOG     as@gmail
+[01:38:30.622] Browser LOG     as@gmail
+[01:38:30.790] Browser LOG     as@gmail.
+[01:38:30.790] Browser LOG     as@gmail.
+[01:38:31.007] Browser LOG     as@gmail.c
+[01:38:31.007] Browser LOG     as@gmail.c
+[01:38:31.007] Browser LOG     as@gmail.co
+[01:38:31.007] Browser LOG     as@gmail.co
+[01:38:31.117] Browser LOG     as@gmail.com
+[01:38:31.117] Browser LOG     as@gmail.com
+[01:38:35.233] Browser LOG     as@gmail.com
+[01:38:35.233] Browser LOG     as@gmail.com
+[01:38:36.628] Browser LOG     as@gmail.com
+[01:38:36.628] Browser LOG     as@gmail.com
+[01:38:36.628] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224074758} /_vercel/insights/view
+[01:40:01.680] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:01.971] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:40:01.971] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:40:01.971] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224160125} /_vercel/insights/view
+[01:44:15.542] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:44:15.863] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:44:15.863] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:44:15.863] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224414016} /_vercel/insights/view
+[01:44:36.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:44:36.881] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:44:36.881] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:44:36.881] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224435034} /_vercel/insights/view
+[01:44:59.468] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:44:59.741] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:44:59.741] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:44:59.741] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224457893} /_vercel/insights/view
+[01:49:50.977] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:49:51.330] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-pw-cursor="pointer"
+                          >
+                  ...
+
+[01:49:51.723] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:49:51.723] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:49:51.723] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224749870} /_vercel/insights/view
+[01:50:47.643] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224805775} /_vercel/insights/view
+[01:50:47.864] Browser LOG     undefined
+[01:50:47.864] Browser LOG     undefined
+[01:50:47.864] Browser LOG     
+[01:50:47.864] Browser LOG     
+[01:50:47.864] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/auth color: rgb(120, 120, 120) color: inherit {"dp":"/auth","o":"http://localhost:3000/auth","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224805986} /_vercel/insights/view
+[01:50:57.154] Browser LOG     a
+[01:50:57.154] Browser LOG     a
+[01:50:57.276] Browser LOG     as
+[01:50:57.276] Browser LOG     as
+[01:50:58.747] Browser LOG     as@
+[01:50:58.748] Browser LOG     as@
+[01:51:02.042] Browser LOG     as@g
+[01:51:02.042] Browser LOG     as@g
+[01:51:02.258] Browser LOG     as@gm
+[01:51:02.258] Browser LOG     as@gm
+[01:51:02.489] Browser LOG     as@gma
+[01:51:02.489] Browser LOG     as@gma
+[01:51:02.489] Browser LOG     as@gmai
+[01:51:02.489] Browser LOG     as@gmai
+[01:51:02.761] Browser LOG     as@gmail
+[01:51:02.761] Browser LOG     as@gmail
+[01:51:03.385] Browser LOG     as@gmail.
+[01:51:03.385] Browser LOG     as@gmail.
+[01:51:03.505] Browser LOG     as@gmail.c
+[01:51:03.505] Browser LOG     as@gmail.c
+[01:51:03.730] Browser LOG     as@gmail.co
+[01:51:03.730] Browser LOG     as@gmail.co
+[01:51:03.730] Browser LOG     as@gmail.com
+[01:51:03.730] Browser LOG     as@gmail.com
+[01:51:10.517] Browser LOG     as@gmail.com
+[01:51:10.517] Browser LOG     as@gmail.com
+[01:51:12.773] Browser LOG     as@gmail.com
+[01:51:12.773] Browser LOG     as@gmail.com
+[01:51:12.773] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224830879} /_vercel/insights/view
+[01:51:14.997] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/torneo color: rgb(120, 120, 120) color: inherit {"dp":"/torneo","o":"http://localhost:3000/torneo","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224833148} /_vercel/insights/view
+[01:52:14.171] Server  LOG     Usuario actual: {}
+[01:52:23.502] Server  LOG     Usuario actual: {}
+[01:52:31.610] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224909754} /_vercel/insights/view
+[01:52:41.759] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/profile color: rgb(120, 120, 120) color: inherit {"dp":"/profile","o":"http://localhost:3000/profile","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224919881} /_vercel/insights/view
+[01:53:10.073] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:10.350] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:53:10.350] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:53:10.350] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772224948503} /_vercel/insights/view

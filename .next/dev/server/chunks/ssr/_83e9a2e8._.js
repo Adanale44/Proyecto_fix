@@ -107,7 +107,7 @@ const ProfilePage = ()=>{
             children: "Cargando..."
         }, void 0, false, {
             fileName: "[project]/app/profile/page.tsx",
-            lineNumber: 49,
+            lineNumber: 50,
             columnNumber: 9
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {

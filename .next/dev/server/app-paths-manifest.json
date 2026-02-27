@@ -1,5 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/api/crearTorneo/route": "app/api/crearTorneo/route.js",
   "/api/login/route": "app/api/login/route.js",
   "/auth/page": "app/auth/page.js",

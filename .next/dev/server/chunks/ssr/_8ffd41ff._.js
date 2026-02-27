@@ -234,7 +234,7 @@ function CreateTournamentForm() {
             });
             const json = await res.json();
             if (!json.ok) {
-                return setError(json.error);
+                return setError(typeof json.error === "string" ? json.error : json.error?.message || "Error al crear torneo");
             }
             alert("Torneo creado correctamente 🔥");
             setFormData({
@@ -261,7 +261,7 @@ function CreateTournamentForm() {
                         children: "Nombre del Torneo"
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 107,
+                        lineNumber: 110,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -270,13 +270,13 @@ function CreateTournamentForm() {
                         onChange: handleChange
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 108,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                lineNumber: 106,
+                lineNumber: 109,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -285,7 +285,7 @@ function CreateTournamentForm() {
                         children: "Categoría"
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 112,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -299,7 +299,7 @@ function CreateTournamentForm() {
                                 children: "Seleccionar categoría"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                                lineNumber: 119,
+                                lineNumber: 122,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -307,7 +307,7 @@ function CreateTournamentForm() {
                                 children: "Deporte"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                                lineNumber: 120,
+                                lineNumber: 123,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -315,7 +315,7 @@ function CreateTournamentForm() {
                                 children: "E-Sports"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                                lineNumber: 121,
+                                lineNumber: 124,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -323,19 +323,19 @@ function CreateTournamentForm() {
                                 children: "Estrategia"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                                lineNumber: 122,
+                                lineNumber: 125,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 113,
+                        lineNumber: 116,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                lineNumber: 111,
+                lineNumber: 114,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -344,7 +344,7 @@ function CreateTournamentForm() {
                         children: "Descripción"
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 127,
+                        lineNumber: 130,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -353,13 +353,13 @@ function CreateTournamentForm() {
                         onChange: handleChange
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 128,
+                        lineNumber: 131,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                lineNumber: 126,
+                lineNumber: 129,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -368,7 +368,7 @@ function CreateTournamentForm() {
                         children: "Reglas"
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 136,
+                        lineNumber: 139,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$textarea$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -377,13 +377,13 @@ function CreateTournamentForm() {
                         onChange: handleChange
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 137,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                lineNumber: 135,
+                lineNumber: 138,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -392,7 +392,7 @@ function CreateTournamentForm() {
                         children: "Límite de Inscripciones"
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 145,
+                        lineNumber: 144,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -402,13 +402,13 @@ function CreateTournamentForm() {
                         onChange: handleChange
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 146,
+                        lineNumber: 145,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                lineNumber: 144,
+                lineNumber: 143,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -417,7 +417,7 @@ function CreateTournamentForm() {
                         children: "Fecha de Inicio"
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 155,
+                        lineNumber: 154,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -427,13 +427,13 @@ function CreateTournamentForm() {
                         onChange: handleChange
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 156,
+                        lineNumber: 155,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                lineNumber: 154,
+                lineNumber: 153,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -442,7 +442,7 @@ function CreateTournamentForm() {
                         children: "Fecha de Fin"
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 165,
+                        lineNumber: 164,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -452,13 +452,13 @@ function CreateTournamentForm() {
                         onChange: handleChange
                     }, void 0, false, {
                         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                        lineNumber: 166,
+                        lineNumber: 165,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                lineNumber: 164,
+                lineNumber: 163,
                 columnNumber: 7
             }, this),
             error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -466,7 +466,7 @@ function CreateTournamentForm() {
                 children: error
             }, void 0, false, {
                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                lineNumber: 174,
+                lineNumber: 173,
                 columnNumber: 17
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -474,13 +474,13 @@ function CreateTournamentForm() {
                 children: "Confirmar creación del torneo"
             }, void 0, false, {
                 fileName: "[project]/app/components/CreateTournamentForm.tsx",
-                lineNumber: 176,
+                lineNumber: 175,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/CreateTournamentForm.tsx",
-        lineNumber: 105,
+        lineNumber: 108,
         columnNumber: 5
     }, this);
 }

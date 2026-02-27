@@ -33,7 +33,7 @@ export default function CreateTournamentForm() {
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
+    >,
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -52,7 +52,7 @@ export default function CreateTournamentForm() {
 
     if (new Date(formData.endDate) <= new Date(formData.startDate)) {
       return setError(
-        "La fecha de fin no puede ser menor o igual a la de inicio"
+        "La fecha de fin no puede ser menor o igual a la de inicio",
       );
     }
 
@@ -80,7 +80,11 @@ export default function CreateTournamentForm() {
       const json = await res.json();
 
       if (!json.ok) {
-        return setError(json.error);
+        return setError(
+          typeof json.error === "string"
+            ? json.error
+            : json.error?.message || "Error al crear torneo",
+        );
       }
 
       alert("Torneo creado correctamente 🔥");
@@ -94,7 +98,6 @@ export default function CreateTournamentForm() {
         startDate: "",
         endDate: "",
       });
-
     } catch (err) {
       console.error(err);
       setError("Error inesperado");
@@ -134,11 +137,7 @@ export default function CreateTournamentForm() {
 
       <div>
         <Label>Reglas</Label>
-        <Textarea
-          name="rules"
-          value={formData.rules}
-          onChange={handleChange}
-        />
+        <Textarea name="rules" value={formData.rules} onChange={handleChange} />
       </div>
 
       <div>
@@ -173,9 +172,7 @@ export default function CreateTournamentForm() {
 
       {error && <p className="text-red-600">{error}</p>}
 
-      <Button type="submit">
-        Confirmar creación del torneo
-      </Button>
+      <Button type="submit">Confirmar creación del torneo</Button>
     </form>
   );
 }

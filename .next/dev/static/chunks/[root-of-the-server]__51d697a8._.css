@@ -181,6 +181,7 @@
     --color-red-400: #ff6568;
     --color-red-500: #fb2c36;
     --color-red-600: #e40014;
+    --color-red-700: #bf000f;
     --color-red-900: #82181a;
     --color-orange-100: #ffedd5;
     --color-orange-400: #ff8b1a;
@@ -220,7 +221,6 @@
     --container-sm: 24rem;
     --container-md: 28rem;
     --container-lg: 32rem;
-    --container-xl: 36rem;
     --container-2xl: 42rem;
     --container-3xl: 48rem;
     --container-4xl: 56rem;
@@ -275,6 +275,7 @@
       --color-red-400: lab(63.7053% 60.745 31.3109);
       --color-red-500: lab(55.4814% 75.0732 48.8528);
       --color-red-600: lab(48.4493% 77.4328 61.5452);
+      --color-red-700: lab(40.4273% 67.2623 53.7441);
       --color-red-900: lab(28.5139% 44.5539 29.0463);
       --color-orange-100: lab(94.7127% 3.58394 14.3151);
       --color-orange-400: lab(70.0429% 42.5156 75.8207);
@@ -1009,14 +1010,6 @@
     margin-block: calc(var(--spacing) * 1);
   }
 
-  .my-6 {
-    margin-block: calc(var(--spacing) * 6);
-  }
-
-  .my-8 {
-    margin-block: calc(var(--spacing) * 8);
-  }
-
   .-mt-4 {
     margin-top: calc(var(--spacing) * -4);
   }
@@ -1514,10 +1507,6 @@
 
   .max-w-sm {
     max-width: var(--container-sm);
-  }
-
-  .max-w-xl {
-    max-width: var(--container-xl);
   }
 
   .min-w-\(--cell-size\) {
@@ -2184,6 +2173,10 @@
     background-color: var(--color-red-50);
   }
 
+  .bg-red-600 {
+    background-color: var(--color-red-600);
+  }
+
   .bg-secondary {
     background-color: var(--secondary);
   }
@@ -2432,6 +2425,10 @@
 
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
+  }
+
+  .py-16 {
+    padding-block: calc(var(--spacing) * 16);
   }
 
   .py-20 {
@@ -3616,6 +3613,12 @@
   }
 
   @media (hover: hover) {
+    .hover\:bg-red-700:hover {
+      background-color: var(--color-red-700);
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:bg-secondary:hover {
       background-color: var(--secondary);
     }
@@ -3690,6 +3693,13 @@
   @media (hover: hover) {
     .hover\:shadow-\[0_0_0_1px_hsl\(var\(--sidebar-accent\)\)\]:hover {
       --tw-shadow: 0 0 0 1px var(--tw-shadow-color, hsl(var(--sidebar-accent)));
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:shadow-lg:hover {
+      --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, #0000001a), 0 4px 6px -4px var(--tw-shadow-color, #0000001a);
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
