@@ -15,7 +15,7 @@ test.describe("Historia Crear torneo", () => {
     await expect(page.getByText(/Crear Torneo/i)).not.toBeVisible();
   });
 
-  test("Dado que creo un torneo con nombre repetido, el sistema emite 'El nombre del torneo está siendo repetido'", async ({
+  test("Dado que se me olvida parte del formulario, el sistema emite 'Todos los campos son obligatorios'", async ({
     page,
   }) => {
     await page.goto("http://localhost:3000/auth");
@@ -41,7 +41,7 @@ test.describe("Historia Crear torneo", () => {
     ).toBeVisible();
   });
 
-  test("Historia 3 - Nombre repetido", async ({ page }) => {
+  test("Dado que creo un torneo con nombre repetido, el sistema emite 'El nombre del torneo está siendo repetido'", async ({ page }) => {
     await page.goto("http://localhost:3000/auth");
 
     await page.getByLabel("Correo Electrónico").fill("a@gmail.com");
