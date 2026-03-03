@@ -29,6 +29,7 @@ export default function CreateTournamentForm() {
   });
 
   const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
 
   const handleChange = (
     e: React.ChangeEvent<
@@ -41,6 +42,7 @@ export default function CreateTournamentForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
+    setSuccess("");
 
     if (Object.values(formData).some((v) => !v)) {
       return setError("Todos los campos son obligatorios");
@@ -87,7 +89,7 @@ export default function CreateTournamentForm() {
         );
       }
 
-      alert("Torneo creado correctamente 🔥");
+      setSuccess("El torneo ha sido creado");
 
       setFormData({
         name: "",
@@ -107,8 +109,13 @@ export default function CreateTournamentForm() {
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       <div>
-        <Label>Nombre del Torneo</Label>
-        <Input name="name" value={formData.name} onChange={handleChange} />
+        <Label htmlFor="name">Nombre del Torneo</Label>
+        <Input
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+        />
       </div>
 
       <div>
@@ -171,6 +178,7 @@ export default function CreateTournamentForm() {
       </div>
 
       {error && <p className="text-red-600">{error}</p>}
+      {success && <p className="text-green-600">{success}</p>}
 
       <Button type="submit">Confirmar creación del torneo</Button>
     </form>

@@ -9,6 +9,7 @@ const ProfilePage = () => {
   const [user, setUser] = useState<any>(null);
   const [tournaments, setTournaments] = useState<any[]>([]);
   const router = useRouter();
+  const [success, setSuccess] = useState("");
 
   const handleLogout = () => {
     pb.authStore.clear();
@@ -21,14 +22,16 @@ const ProfilePage = () => {
     try {
       await pb.collection("tournaments").update(id, {
         published: true,
+        status: "publicado",
       });
 
-      // Actualizamos visualmente sin recargar
       setTournaments((prev) =>
         prev.map((t) =>
-          t.id === id ? { ...t, published: true } : t
-        )
+          t.id === id ? { ...t, published: true, status: "publicado" } : t,
+        ),
       );
+
+      setSuccess("El torneo ha sido publicado");
     } catch (error) {
       console.error("Error publicando torneo:", error);
     }
@@ -66,9 +69,7 @@ const ProfilePage = () => {
     <div className="p-6">
       {user ? (
         <>
-          <h1 className="text-2xl font-bold mb-4">
-            Perfil de {user.email}
-          </h1>
+          <h1 className="text-2xl font-bold mb-4">Perfil de {user.email}</h1>
 
           <p>Email: {user.email}</p>
           <p>ID: {user.id}</p>
@@ -82,10 +83,10 @@ const ProfilePage = () => {
 
           {/* 🔥 Mis Torneos */}
           <div className="mt-10">
-            <h2 className="text-xl font-semibold mb-4">
-              Mis Torneos
-            </h2>
-
+            <h2 className="text-xl font-semibold mb-4">Mis Torneos</h2>
+            {success && (
+              <p className="text-green-600 font-semibold mt-4">{success}</p>
+            )}
             {tournaments.length === 0 ? (
               <p>No creaste ningún torneo todavía.</p>
             ) : (
@@ -95,42 +96,24 @@ const ProfilePage = () => {
                     key={tournament.id}
                     className="border rounded p-4 shadow"
                   >
-                    <h3 className="text-lg font-bold">
-                      {tournament.name}
-                    </h3>
+                    <h3 className="text-lg font-bold">{tournament.name}</h3>
 
                     <p>Categoría: {tournament.category}</p>
                     <p>Estado: {tournament.status}</p>
-                    <p>
-                      Publicado:{" "}
-                      {tournament.published ? "Sí" : "No"}
-                    </p>
+                    <p>Publicado: {tournament.published ? "Sí" : "No"}</p>
+
+                    <p>Creado por: {tournament.expand?.creator?.email}</p>
 
                     <p>
-                      Creado por:{" "}
-                      {tournament.expand?.creator?.email}
+                      Inicio: {new Date(tournament.startDate).toLocaleString()}
                     </p>
 
-                    <p>
-                      Inicio:{" "}
-                      {new Date(
-                        tournament.startDate
-                      ).toLocaleString()}
-                    </p>
-
-                    <p>
-                      Fin:{" "}
-                      {new Date(
-                        tournament.endDate
-                      ).toLocaleString()}
-                    </p>
+                    <p>Fin: {new Date(tournament.endDate).toLocaleString()}</p>
 
                     {/* ✅ BOTÓN SOLO SI NO ESTÁ PUBLICADO */}
                     {!tournament.published && (
                       <Button
-                        onClick={() =>
-                          publishTournament(tournament.id)
-                        }
+                        onClick={() => publishTournament(tournament.id)}
                         className="mt-4 bg-blue-600 hover:bg-blue-700"
                       >
                         Publicar Torneo
