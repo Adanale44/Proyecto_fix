@@ -156,6 +156,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$pocketbase$2f$dist$2f$pocketbase$2e$es$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/pocketbase/dist/pocketbase.es.mjs [app-client] (ecmascript)");
 ;
 const pb = new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$pocketbase$2f$dist$2f$pocketbase$2e$es$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]("http://127.0.0.1:8090");
+pb.autoCancellation(false);
 const __TURBOPACK__default__export__ = pb;
 if ("TURBOPACK compile-time truthy", 1) {
     pb.authStore.loadFromCookie(document.cookie);

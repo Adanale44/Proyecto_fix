@@ -285,36 +285,18 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="container mx-auto px-4 py-16">
-        <h3 className="text-3xl font-bold mb-8 text-center">Torneos Activos</h3>
-
-        {tournaments.length === 0 ? (
-          <p className="text-center text-gray-500">
-            No hay torneos publicados todavía.
-          </p>
-        ) : (
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {tournaments.map((tournament) => (
-              <Card key={tournament.id}>
-                <CardContent className="pt-6">
-                  <h4 className="text-xl font-bold mb-2">{tournament.name}</h4>
-                  <p className="text-gray-600 mb-2">
-                    Estado: {tournament.status}
-                  </p>
-                  <p className="text-sm text-gray-500">
-                    Creado por: {tournament.expand?.creator?.email}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        )}
-      </section>
-
+      <div className="flex justify-center mt-4">
+        <Button variant="outline" asChild>
+          <Link href="/torneos">
+            <Trophy className="mr-2 h-5 w-5" />
+            Ver Torneos
+          </Link>
+        </Button>
+      </div>
       {/* About Section */}
       <section
         id="about"
-        className="py-20 bg-gradient-to-b from-blue-50 to-white"
+        className="py-20 bg-gradient-to-b from-blue-50 to-gray-500"
       >
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
