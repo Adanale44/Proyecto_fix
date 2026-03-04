@@ -136,19 +136,17 @@ const ProfilePage = ()=>{
         setUser(null);
         router.push("/");
     };
-    // ✅ FUNCIÓN PARA PUBLICAR
     const publishTournament = async (id)=>{
         try {
             await __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$pb$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].collection("tournaments").update(id, {
-                published: true,
-                status: "publicado"
+                published: true
             });
             setTournaments((prev)=>prev.map((t)=>t.id === id ? {
                         ...t,
-                        published: true,
-                        status: "publicado"
+                        published: true
                     } : t));
             setSuccess("El torneo ha sido publicado");
+            router.push("/torneos");
         } catch (error) {
             console.error("Error publicando torneo:", error);
         }
@@ -191,7 +189,7 @@ const ProfilePage = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.tsx",
-                    lineNumber: 72,
+                    lineNumber: 70,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -201,7 +199,7 @@ const ProfilePage = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.tsx",
-                    lineNumber: 74,
+                    lineNumber: 72,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -211,7 +209,7 @@ const ProfilePage = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.tsx",
-                    lineNumber: 75,
+                    lineNumber: 73,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -220,7 +218,7 @@ const ProfilePage = ()=>{
                     children: "Cerrar Sesión"
                 }, void 0, false, {
                     fileName: "[project]/app/profile/page.tsx",
-                    lineNumber: 77,
+                    lineNumber: 75,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -231,7 +229,7 @@ const ProfilePage = ()=>{
                             children: "Mis Torneos"
                         }, void 0, false, {
                             fileName: "[project]/app/profile/page.tsx",
-                            lineNumber: 86,
+                            lineNumber: 84,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         success && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -239,14 +237,14 @@ const ProfilePage = ()=>{
                             children: success
                         }, void 0, false, {
                             fileName: "[project]/app/profile/page.tsx",
-                            lineNumber: 88,
+                            lineNumber: 86,
                             columnNumber: 15
                         }, ("TURBOPACK compile-time value", void 0)),
                         tournaments.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: "No creaste ningún torneo todavía."
                         }, void 0, false, {
                             fileName: "[project]/app/profile/page.tsx",
-                            lineNumber: 91,
+                            lineNumber: 89,
                             columnNumber: 15
                         }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "space-y-4",
@@ -258,7 +256,7 @@ const ProfilePage = ()=>{
                                             children: tournament.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.tsx",
-                                            lineNumber: 99,
+                                            lineNumber: 97,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -268,7 +266,7 @@ const ProfilePage = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/profile/page.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 99,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -278,7 +276,7 @@ const ProfilePage = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/profile/page.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 100,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -288,7 +286,7 @@ const ProfilePage = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/profile/page.tsx",
-                                            lineNumber: 103,
+                                            lineNumber: 101,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -298,7 +296,7 @@ const ProfilePage = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/profile/page.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 103,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -308,7 +306,7 @@ const ProfilePage = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/profile/page.tsx",
-                                            lineNumber: 107,
+                                            lineNumber: 105,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -318,7 +316,7 @@ const ProfilePage = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/profile/page.tsx",
-                                            lineNumber: 111,
+                                            lineNumber: 109,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         !tournament.published && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -327,24 +325,24 @@ const ProfilePage = ()=>{
                                             children: "Publicar Torneo"
                                         }, void 0, false, {
                                             fileName: "[project]/app/profile/page.tsx",
-                                            lineNumber: 115,
+                                            lineNumber: 113,
                                             columnNumber: 23
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, tournament.id, true, {
                                     fileName: "[project]/app/profile/page.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 93,
                                     columnNumber: 19
                                 }, ("TURBOPACK compile-time value", void 0)))
                         }, void 0, false, {
                             fileName: "[project]/app/profile/page.tsx",
-                            lineNumber: 93,
+                            lineNumber: 91,
                             columnNumber: 15
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/profile/page.tsx",
-                    lineNumber: 85,
+                    lineNumber: 83,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -352,12 +350,12 @@ const ProfilePage = ()=>{
             children: "Cargando..."
         }, void 0, false, {
             fileName: "[project]/app/profile/page.tsx",
-            lineNumber: 129,
+            lineNumber: 127,
             columnNumber: 9
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/app/profile/page.tsx",
-        lineNumber: 69,
+        lineNumber: 67,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

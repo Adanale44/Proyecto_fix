@@ -12,26 +12,24 @@ const ProfilePage = () => {
   const [success, setSuccess] = useState("");
 
   const handleLogout = () => {
-    pb.authStore.clear();
+    pb.authStore.clear();   
     setUser(null);
     router.push("/");
   };
-
-  // ✅ FUNCIÓN PARA PUBLICAR
   const publishTournament = async (id: string) => {
     try {
       await pb.collection("tournaments").update(id, {
         published: true,
-        status: "publicado",
       });
 
       setTournaments((prev) =>
         prev.map((t) =>
-          t.id === id ? { ...t, published: true, status: "publicado" } : t,
+          t.id === id ? { ...t, published: true} : t,
         ),
       );
 
       setSuccess("El torneo ha sido publicado");
+      router.push("/torneos");
     } catch (error) {
       console.error("Error publicando torneo:", error);
     }

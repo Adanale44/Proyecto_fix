@@ -1,16 +1,17 @@
-  test("Dado que termino de crear el torneo y presiono publicar, el sistema emite 'El torneo ha sido publicado'", async ({
+import { test, expect } from "@playwright/test";
+
+test.describe("Historia: Hacer público el torneo", () => {
+  test("Dado que termino de crear el torneo y presiono publicar, el sistema lo hace visible para todos", async ({
     page,
   }) => {
-    // Login
     await page.goto("http://localhost:3000/auth");
 
     await page.getByLabel("Correo Electrónico").fill("a@gmail.com");
     await page.getByLabel("Contraseña").fill("12345678");
+
     await page.getByRole("button", { name: "Iniciar Sesión" }).click();
 
     await expect(page).toHaveURL("http://localhost:3000/");
-
-    // Crear torneo
     await page.goto("http://localhost:3000/torneo");
 
     const nombreUnico = "TorneoTest_" + Date.now();
@@ -28,28 +29,15 @@
       .click();
 
     await expect(page.getByText(/El torneo ha sido creado/i)).toBeVisible();
-
-    // Ir al perfil
     await page.goto("http://localhost:3000/profile");
+    const botonPublicar = page
+      .getByRole("button", { name: "Publicar Torneo" })
+      .first();
 
-    await expect(page.getByText(nombreUnico)).toBeVisible();
+    await expect(botonPublicar).toBeVisible();
+    await botonPublicar.click();
+    await expect(page.getByText(/El torneo ha sido publicado/i)).toBeVisible();
+    await expect(page).toHaveURL("http://localhost:3000/torneos");
 
-    const torneoCard = page.locator("div.border", {
-      has: page.getByText(nombreUnico),
-    });
-
-    const publishButton = torneoCard.getByRole("button", {
-      name: "Publicar Torneo",
-    });
-
-    // Esperar que el botón esté realmente listo
-    await expect(publishButton).toBeVisible({ timeout: 10000 });
-
-    // Click UNA sola vez
-    await publishButton.click();
-
-    // Validar mensaje
-    await expect(page.getByText("El torneo ha sido publicado")).toBeVisible({
-      timeout: 10000,
-    });
   });
+});

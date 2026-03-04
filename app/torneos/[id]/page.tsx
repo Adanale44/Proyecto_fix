@@ -8,34 +8,49 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function TorneoDetallePage() {
   const { id } = useParams();
   const [tournament, setTournament] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
+
   const user = pb.authStore.model;
-
-  const isParticipant = user && tournament.participants?.includes(user.id);
-
-  const participantsCount = tournament.participants?.length || 0;
-
-  const isFull = participantsCount >= tournament.limit;
 
   useEffect(() => {
     const fetchTournament = async () => {
       try {
         const result = await pb.collection("tournaments").getOne(id as string, {
           expand: "creator",
-          requestKey: null, // 🔥 ESTO SOLUCIONA TODO
+          requestKey: null,
         });
 
         setTournament(result);
       } catch (error) {
         console.error(error);
+      } finally {
+        setLoading(false);
       }
     };
 
     if (id) fetchTournament();
   }, [id]);
 
-  if (!tournament) {
+  // 🔥 IMPORTANTE
+  if (loading) {
     return <div className="p-10">Cargando torneo...</div>;
   }
+
+  if (!tournament) {
+    return (
+      <div className="p-10 text-red-500">
+        El torneo no existe o fue eliminado.
+      </div>
+    );
+  }
+
+  // ✅ Ahora sí es seguro usar tournament
+  const isParticipant = user && tournament.participants?.includes(user.id);
+
+  const participantsCount = tournament.participants?.length || 0;
+  console.log("ID recibido:", id);
+
+  const isFull = participantsCount >= tournament.limit;
 
   return (
     <div className="min-h-screen p-10 bg-gray-50 flex justify-center">
@@ -55,18 +70,19 @@ export default function TorneoDetallePage() {
           </div>
 
           <div>
-            <strong>Límite de participantes:</strong> {tournament.limit}
+            <strong>Límite:</strong> {tournament.limit}
           </div>
 
           <div>
-            <strong>Fecha de inicio:</strong>{" "}
+            <strong>Fecha:</strong>{" "}
             {new Date(tournament.startDate).toLocaleString()}
           </div>
 
           <div className="text-sm text-gray-500">
             Creado por: {tournament.expand?.creator?.email}
           </div>
-          {pb.authStore.model?.id === tournament.creator && (
+
+          {user?.id === tournament.creator && (
             <button
               onClick={async () => {
                 await pb.collection("tournaments").update(tournament.id, {
@@ -81,49 +97,36 @@ export default function TorneoDetallePage() {
                 : "Abrir inscripciones"}
             </button>
           )}
+
           <p>
             Participantes: {participantsCount} / {tournament.limit}
           </p>
-          {tournament.inscriptionOpen &&
-            pb.authStore.model &&
-            !tournament.participants?.includes(pb.authStore.model.id) &&
-            (tournament.participants?.length || 0) < tournament.limit && (
-              <button
-                onClick={async () => {
-                  try {
-                    await pb.collection("tournaments").update(tournament.id, {
-                      participants: [
-                        ...(tournament.participants || []),
-                        pb.authStore.model.id,
-                      ],
-                    });
 
-                    alert("Te uniste al torneo 🎉");
-                    location.reload();
-                  } catch (error) {
-                    console.error(error);
-                  }
-                }}
-                className="bg-green-600 text-white px-4 py-2 rounded"
-              >
-                Unirme al torneo
-              </button>
-            )}
+          {tournament.inscriptionOpen && user && !isParticipant && !isFull && (
+            <button
+              onClick={async () => {
+                await pb.collection("tournaments").update(tournament.id, {
+                  participants: [...(tournament.participants || []), user.id],
+                });
+
+                location.reload();
+              }}
+              className="bg-green-600 text-white px-4 py-2 rounded"
+            >
+              Unirme al torneo
+            </button>
+          )}
 
           {tournament.inscriptionOpen && user && isParticipant && (
             <button
               onClick={async () => {
-                try {
-                  await pb.collection("tournaments").update(tournament.id, {
-                    participants: tournament.participants.filter(
-                      (id: string) => id !== user.id,
-                    ),
-                  });
+                await pb.collection("tournaments").update(tournament.id, {
+                  participants: tournament.participants.filter(
+                    (pid: string) => pid !== user.id,
+                  ),
+                });
 
-                  location.reload();
-                } catch (error) {
-                  console.error(error);
-                }
+                location.reload();
               }}
               className="bg-red-600 text-white px-4 py-2 rounded"
             >
@@ -131,7 +134,7 @@ export default function TorneoDetallePage() {
             </button>
           )}
 
-          {(tournament.participants?.length || 0) >= tournament.limit && (
+          {isFull && (
             <p className="text-red-500 font-semibold">Torneo completo</p>
           )}
         </CardContent>
